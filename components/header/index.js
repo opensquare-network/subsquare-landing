@@ -1,0 +1,35 @@
+import styled from "styled-components";
+
+import Container from "components/container";
+import Launch from "./launch";
+
+const Wrapper = styled.header`
+  background: #ffffff;
+  border-bottom: 1px solid #ebeef4;
+  height: 64px;
+`;
+
+const InnerWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+`;
+
+const Logo = styled.div`
+  background: url("/imgs/logo.svg");
+  width: 161px;
+  height: 64px;
+`;
+
+export default function Header() {
+  return (
+    <Wrapper>
+      <Container>
+        <InnerWrapper>
+          <Logo />
+          <Launch />
+        </InnerWrapper>
+      </Container>
+    </Wrapper>
+  );
+}
