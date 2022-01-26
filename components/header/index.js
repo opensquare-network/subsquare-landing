@@ -2,11 +2,14 @@ import styled from "styled-components";
 
 import Container from "components/container";
 import Launch from "./launch";
+import Sider from "./sider";
 
 const Wrapper = styled.header`
   background: #ffffff;
   border-bottom: 1px solid #ebeef4;
   height: 64px;
+  position: fixed;
+  width: 100%;
 `;
 
 const InnerWrapper = styled.div`
@@ -28,6 +31,7 @@ export default function Header() {
         <InnerWrapper>
           <Logo />
           <Launch />
+          <Sider />
         </InnerWrapper>
       </Container>
     </Wrapper>

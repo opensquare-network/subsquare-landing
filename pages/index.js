@@ -1,11 +1,24 @@
+import styled from "styled-components";
 import Head from "next/head";
 
 import Header from "components/header";
-import Footer from "../components/footer";
+import Overview from "components/overview";
+import Footer from "components/footer";
+
+const Layout = styled.div`
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+`;
+
+const Main = styled.main`
+  flex-grow: 1;
+  margin-top: 64px;
+`;
 
 export default function Home() {
   return (
-    <div>
+    <Layout>
       <Head>
         <title>Subsquare</title>
         <meta name="description" content="Subsquare landing page" />
@@ -13,7 +26,10 @@ export default function Home() {
       </Head>
 
       <Header />
+      <Main>
+        <Overview />
+      </Main>
       <Footer />
-    </div>
+    </Layout>
   );
 }

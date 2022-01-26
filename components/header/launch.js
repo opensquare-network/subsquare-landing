@@ -1,11 +1,14 @@
 import styled, { css } from "styled-components";
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 
 import Options from "components/options";
-import { useOnClickOutside } from "utils/hooks";
+import { useOnClickOutside, useWindowSize } from "utils/hooks";
 
 const Wrapper = styled.div`
   position: relative;
+  @media screen and (max-width: 1080px) {
+    display: none;
+  }
 `;
 
 const Button = styled.button`
@@ -38,8 +41,15 @@ const OptionsWrapper = styled.div`
 export default function Launch() {
   const [show, setShow] = useState(false);
   const ref = useRef();
+  const { width } = useWindowSize();
 
   useOnClickOutside(ref, () => setShow(false));
+
+  useEffect(() => {
+    if (width <= 1080) {
+      setShow(false);
+    }
+  }, [width]);
 
   return (
     <Wrapper ref={ref}>
@@ -48,7 +58,7 @@ export default function Launch() {
       </Button>
       {show && (
         <OptionsWrapper>
-          <Options onClose={() => setShow(false)} />
+          <Options onClose={() => setShow(false)} isLink />
         </OptionsWrapper>
       )}
     </Wrapper>
