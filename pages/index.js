@@ -1,6 +1,7 @@
 import Head from "next/head";
 
 import Header from "components/header";
+import Overview from "components/overview";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
 
       <Header />
+      <Overview />
     </div>
   );
 }
