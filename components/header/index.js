@@ -8,6 +8,8 @@ const Wrapper = styled.header`
   background: #ffffff;
   border-bottom: 1px solid #ebeef4;
   height: 64px;
+  position: fixed;
+  width: 100%;
 `;
 
 const InnerWrapper = styled.div`

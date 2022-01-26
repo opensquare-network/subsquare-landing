@@ -36,6 +36,7 @@ const Background = styled.div`
   background: rgba(0, 0, 0, 0.2);
   display: flex;
   justify-content: flex-end;
+  z-index: 9999;
 `;
 
 const Pannel = styled.div`
