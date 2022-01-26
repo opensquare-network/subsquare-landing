@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 import Container from "components/container";
 import Launch from "./launch";
+import Sider from "./sider";
 
 const Wrapper = styled.header`
   background: #ffffff;
@@ -28,6 +29,7 @@ export default function Header() {
         <InnerWrapper>
           <Logo />
           <Launch />
+          <Sider />
         </InnerWrapper>
       </Container>
     </Wrapper>

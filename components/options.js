@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 import ExternalLink from "./externalLink";
+import { OPTIONS } from "utils/constants";
 
 const Wrapper = styled.div`
   background: #ffffff;
@@ -21,6 +22,7 @@ const Item = styled.div`
   font-size: 14px;
   line-height: 100%;
   color: #506176;
+  cursor: pointer;
   > img {
     width: 24px;
     height: 24px;
@@ -32,62 +34,30 @@ const Item = styled.div`
   }
 `;
 
-const OPTIONS = [
-  {
-    value: "acala",
-    text: "Acala",
-    icon: "acala.svg",
-    url: "https://acala.subsquare.io/",
-  },
-  {
-    value: "karura",
-    text: "Larura",
-    icon: "karura.svg",
-    url: "https://karura.subsquare.io/",
-  },
-  {
-    value: "kusama",
-    text: "Kusama",
-    icon: "kusama.svg",
-    url: "https://kusama.subsquare.io/",
-  },
-  {
-    value: "khala",
-    text: "Khala",
-    icon: "khala.svg",
-    url: "https://khala.subsquare.io/",
-  },
-  {
-    value: "basilisk",
-    text: "Basilisk",
-    icon: "basilisk.svg",
-    url: "https://basilisk.subsquare.io/",
-  },
-  {
-    value: "kintsugi",
-    text: "Kintsugi",
-    icon: "kintsugi.svg",
-    url: "https://kintsugi.subsquare.io/",
-  },
-  {
-    value: "kabocha",
-    text: "Kabocha",
-    icon: "kabocha.svg",
-    url: "https://kabocha.subsquare.io/",
-  },
-];
-
-export default function Options({ onClose }) {
+export default function Options({ onClose, isLink, setSelected }) {
   return (
     <Wrapper>
-      {(OPTIONS || []).map((item, index) => (
-        <ExternalLink key={index} href={item.url}>
-          <Item onClick={onClose}>
+      {(OPTIONS || []).map((item, index) =>
+        isLink ? (
+          <ExternalLink key={index} href={item.url}>
+            <Item onClick={onClose}>
+              <img src={`/imgs/icons/${item.icon}`} alt="" />
+              {item.text}
+            </Item>
+          </ExternalLink>
+        ) : (
+          <Item
+            key={index}
+            onClick={() => {
+              setSelected(item.value);
+              onClose();
+            }}
+          >
             <img src={`/imgs/icons/${item.icon}`} alt="" />
             {item.text}
           </Item>
-        </ExternalLink>
-      ))}
+        )
+      )}
     </Wrapper>
   );
 }
