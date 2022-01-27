@@ -3,6 +3,9 @@ import Head from "next/head";
 
 import Header from "components/header";
 import Overview from "components/overview";
+import Partner from "components/partner";
+import Feature from "components/feature";
+import Advantage from "components/advantage";
 import Footer from "components/footer";
 
 const Layout = styled.div`
@@ -28,6 +31,9 @@ export default function Home() {
       <Header />
       <Main>
         <Overview />
+        <Partner />
+        <Feature />
+        <Advantage />
       </Main>
       <Footer />
     </Layout>
