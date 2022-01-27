@@ -6,7 +6,7 @@ import { useOnClickOutside, useWindowSize } from "utils/hooks";
 
 const Wrapper = styled.div`
   position: relative;
-  @media screen and (max-width: 1080px) {
+  @media screen and (max-width: 800px) {
     display: none;
   }
 `;
@@ -46,7 +46,7 @@ export default function Launch() {
   useOnClickOutside(ref, () => setShow(false));
 
   useEffect(() => {
-    if (width <= 1080) {
+    if (width <= 800) {
       setShow(false);
     }
   }, [width]);

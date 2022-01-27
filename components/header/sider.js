@@ -8,7 +8,7 @@ import ExternalLink from "components/externalLink";
 
 const Wrapper = styled.div`
   display: none;
-  @media screen and (max-width: 1080px) {
+  @media screen and (max-width: 800px) {
     display: block;
   }
 `;
@@ -127,7 +127,7 @@ export default function Sider() {
   useOnClickOutside(ref, () => setShowOptions(false));
 
   useEffect(() => {
-    if (width > 1080) {
+    if (width > 800) {
       setShow(false);
     }
   }, [width]);

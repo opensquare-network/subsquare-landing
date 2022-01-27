@@ -32,7 +32,10 @@ const Title = styled.div`
       opacity: 0;
     }
   }
-  @media screen and (max-width: 1080px) {
+  @media screen and (max-width: 800px) {
+    font-size: 48px;
+  }
+  @media screen and (max-width: 600px) {
     font-size: 32px;
   }
 `;
@@ -59,7 +62,7 @@ const Button = styled.div`
 
 const ImageWrapper = styled.div`
   width: fit-content;
-  margin: 40px auto;
+  margin: 40px auto 0;
   border: 1px solid #ebeef4;
   border-radius: 20px 20px 0px 0px;
   overflow: hidden;

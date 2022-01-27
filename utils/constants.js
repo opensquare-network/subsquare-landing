@@ -42,3 +42,14 @@ export const OPTIONS = [
     url: "https://kabocha.subsquare.io/",
   },
 ];
+
+export const FEATURE_TABS = [
+  {
+    title: "Governance Visualization",
+    items: ["Council", "Tech. Comm.", "Democracy"],
+  },
+  {
+    title: "Treasury Management",
+    items: ["Proposal", "Bounties", "Tips"],
+  },
+];
