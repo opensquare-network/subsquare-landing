@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import Button from "components/Button";
+
 const Wrapper = styled.div`
   background-image: url("/imgs/overview-bg.svg");
   background-position: ;
@@ -46,18 +48,6 @@ const Text = styled.div`
   line-height: 140%;
   text-align: center;
   color: #9da9bb;
-`;
-
-const Button = styled.div`
-  background: #6848ff;
-  border-radius: 4px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 100%;
-  color: #ffffff;
-  cursor: pointer;
-  padding: 12px;
-  text-align: center;
 `;
 
 const ImageWrapper = styled.div`
