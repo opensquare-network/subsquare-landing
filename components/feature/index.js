@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { useState } from "react";
+import { useState, Fragment } from "react";
 
 import Title from "components/title";
 import Tab from "./tab";
@@ -70,9 +70,8 @@ export default function Feature() {
         <ContentWrapper>
           <LeftWrapper>
             {(FEATURE_TABS || []).map((item, index) => (
-              <>
+              <Fragment key={index}>
                 <Tab
-                  key={index}
                   title={item.title}
                   items={item.items}
                   active={activeIndex === index}
@@ -81,7 +80,7 @@ export default function Feature() {
                 <ImgTab>
                   <img src={`/imgs/feature-img-${index + 1}.png`} alt="" />
                 </ImgTab>
-              </>
+              </Fragment>
             ))}
           </LeftWrapper>
           <RightWrapper>

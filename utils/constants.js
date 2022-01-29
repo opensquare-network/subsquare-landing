@@ -53,3 +53,55 @@ export const FEATURE_TABS = [
     items: ["Proposal", "Bounties", "Tips"],
   },
 ];
+
+export const ADVANTAGE_TOP_CARDS = [
+  {
+    icon: "advantage-timeline.svg",
+    title: "Detailed Timeline",
+    img: "advantage-img-1.png",
+  },
+  {
+    icon: "advantage-editor.svg",
+    title: "Rich Editor",
+    img: "advantage-img-2.png",
+  },
+  {
+    icon: "advantage-mobile.svg",
+    title: "Mobile Friendly",
+    img: "advantage-img-3.png",
+  },
+];
+
+export const ADVANTAGE_BOTTOM_CARDS = [
+  {
+    icon: "advantage-chain.svg",
+    title: "Interactive with Parachain",
+  },
+  {
+    icon: "advantage-did.svg",
+    title: "DID Login & Data Decentralization",
+  },
+];
+
+export const EXPLORE_CARDS = [
+  {
+    title: "Khala",
+    img: "explore-img-khala.png",
+  },
+  {
+    title: "Acala",
+    img: "explore-img-acala.png",
+  },
+  {
+    title: "Karura",
+    img: "explore-img-karura.png",
+  },
+  {
+    title: "Bifrost",
+    img: "explore-img-bifrost.png",
+  },
+  {
+    title: "Karura",
+    img: "explore-img-karura.png",
+  },
+];

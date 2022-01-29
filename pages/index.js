@@ -6,6 +6,7 @@ import Overview from "components/overview";
 import Partner from "components/partner";
 import Feature from "components/feature";
 import Advantage from "components/advantage";
+import Explore from "components/explore";
 import Footer from "components/footer";
 
 const Layout = styled.div`
@@ -34,6 +35,7 @@ export default function Home() {
         <Partner />
         <Feature />
         <Advantage />
+        <Explore />
       </Main>
       <Footer />
     </Layout>
