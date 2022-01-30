@@ -41,7 +41,7 @@ const ProjectWrapper = styled.div`
 export default function Partner() {
   return (
     <Wrapper>
-      <Title>Trusted By the Best ProJect</Title>
+      <Title>Trusted By the Best Projects</Title>
       <ProjectWrapper>
         <img src="/imgs/icons/project-khala.svg" alt="" />
         <img src="/imgs/icons/project-acala.svg" alt="" />

@@ -13,9 +13,9 @@ const Wrapper = styled.div`
     padding: 40px 0 30px;
   }
   > div {
-    transition: all 1s linear;
+    transition: all 1s ease-in;
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(40px);
   }
   &.display {
     > div {

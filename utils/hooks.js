@@ -58,7 +58,7 @@ export const useDisplay = (ref) => {
   useEffect(() => {
     if (
       !display &&
-      position + window.innerHeight > ref?.current?.offsetTop + 40
+      position + window.innerHeight > ref?.current?.offsetTop + 60
     ) {
       setDisplay(true);
     }
