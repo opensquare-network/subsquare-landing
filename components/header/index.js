@@ -5,6 +5,7 @@ import Launch from "./launch";
 import Sider from "./sider";
 
 const Wrapper = styled.header`
+  z-index: 2;
   background: #ffffff;
   border-bottom: 1px solid #ebeef4;
   height: 64px;

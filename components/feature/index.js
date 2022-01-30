@@ -1,15 +1,27 @@
 import styled from "styled-components";
-import { useState, Fragment } from "react";
+import { useState, Fragment, useRef } from "react";
 
 import Title from "components/title";
 import Tab from "./tab";
 import Container from "components/container";
 import { FEATURE_TABS } from "utils/constants";
+import { useDisplay } from "utils/hooks";
 
 const Wrapper = styled.div`
   padding: 80px 0 60px;
   @media screen and (max-width: 800px) {
     padding: 40px 0 30px;
+  }
+  > div {
+    transition: all 1s linear;
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  &.display {
+    > div {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 `;
 
@@ -57,9 +69,11 @@ const RightWrapper = styled.div`
 
 export default function Feature() {
   const [activeIndex, setActiveIndex] = useState(0);
+  const ref = useRef();
+  const display = useDisplay(ref);
 
   return (
-    <Wrapper>
+    <Wrapper ref={ref} className={display ? "display" : ""}>
       <Container>
         <Title
           topic="TOP FEATURES"

@@ -16,6 +16,7 @@ const Layout = styled.div`
 `;
 
 const Main = styled.main`
+  z-index: 1;
   flex-grow: 1;
   margin-top: 64px;
 `;
