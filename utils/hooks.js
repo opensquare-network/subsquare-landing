@@ -35,3 +35,34 @@ export function useWindowSize() {
   }, []);
   return windowSize;
 }
+
+export const useScrollPosition = () => {
+  const [scrollPosition, setScrollPosition] = useState(0);
+
+  useEffect(() => {
+    const updatePosition = () => {
+      setScrollPosition(window.pageYOffset);
+    };
+    window.addEventListener("scroll", updatePosition);
+    updatePosition();
+    return () => window.removeEventListener("scroll", updatePosition);
+  }, []);
+
+  return scrollPosition;
+};
+
+export const useDisplay = (ref) => {
+  const position = useScrollPosition();
+  const [display, setDisplay] = useState(false);
+
+  useEffect(() => {
+    if (
+      !display &&
+      position + window.innerHeight > ref?.current?.offsetTop + 60
+    ) {
+      setDisplay(true);
+    }
+  }, [position, ref, display]);
+
+  return display;
+};

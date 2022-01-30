@@ -1,14 +1,27 @@
 import styled from "styled-components";
+import { useRef } from "react";
 
 import Container from "components/container";
 import Title from "components/title";
 import Card from "./card";
 import { ADVANTAGE_TOP_CARDS, ADVANTAGE_BOTTOM_CARDS } from "utils/constants";
+import { useDisplay } from "utils/hooks";
 
 const Wrapper = styled.div`
   padding: 60px 0 80px;
   @media screen and (max-width: 800px) {
     padding: 30px 0 40px;
+  }
+  > div {
+    transition: all 1s ease-in;
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  &.display {
+    > div {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 `;
 
@@ -36,8 +49,11 @@ const BottomCardWrapper = styled(CardWrapper)`
 `;
 
 export default function Advantage() {
+  const ref = useRef();
+  const display = useDisplay(ref);
+
   return (
-    <Wrapper>
+    <Wrapper ref={ref} className={display ? "display" : ""}>
       <Container>
         <Title
           topic="ADVANTAGES"

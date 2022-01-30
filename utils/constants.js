@@ -101,7 +101,7 @@ export const EXPLORE_CARDS = [
     img: "explore-img-bifrost.png",
   },
   {
-    title: "Karura",
-    img: "explore-img-karura.png",
+    title: "Kintsugi",
+    img: "explore-img-kintsugi.png",
   },
 ];

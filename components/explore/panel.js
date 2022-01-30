@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import Button from "components/Button";
+import Button from "components/button";
 
 const Wrapper = styled.div`
   background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
