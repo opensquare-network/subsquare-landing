@@ -1,12 +1,12 @@
 import styled from "styled-components";
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 
 import Container from "components/container";
 import Title from "components/title";
 import Card from "./card";
 import { EXPLORE_CARDS } from "utils/constants";
 import Panel from "./panel";
-import { useDisplay } from "utils/hooks";
+import { useDisplay, useWindowSize } from "utils/hooks";
 
 const Wrapper = styled.div`
   padding: 80px 0;
@@ -93,14 +93,24 @@ const RightArrowButton = styled(ArrowButton)`
 
 export default function Advantage() {
   const ref = useRef();
+  const cardRef = useRef();
   const display = useDisplay(ref);
   const [currentIndex, setCurrentIndex] = useState(0);
+  const { width } = useWindowSize();
 
   const onIncrease = (increase) => {
     const target = currentIndex + increase;
     if (target < 0 || target >= EXPLORE_CARDS.length - 2) return;
     setCurrentIndex(target);
   };
+
+  useEffect(() => {
+    if (width > 1200) {
+      cardRef?.current?.scrollTo(0, 0);
+    } else {
+      setCurrentIndex(0);
+    }
+  }, [width]);
 
   return (
     <Wrapper ref={ref} className={display ? "display" : ""}>
@@ -112,7 +122,7 @@ export default function Advantage() {
           color="#4CAF50"
         />
         <CardContainer>
-          <CardWrapper currentIndex={currentIndex}>
+          <CardWrapper currentIndex={currentIndex} ref={cardRef}>
             {(EXPLORE_CARDS || []).map((item, index) => (
               <Card key={index} data={item} />
             ))}
