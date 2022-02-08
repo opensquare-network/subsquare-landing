@@ -46,17 +46,17 @@ export const ADVANTAGE_TOP_CARDS = [
   {
     icon: "advantage-timeline.svg",
     title: "Detailed Timeline",
-    img: "advantage-img-1.png",
+    img: "advantage-img-1.jpg",
   },
   {
     icon: "advantage-editor.svg",
     title: "Rich Editor",
-    img: "advantage-img-2.png",
+    img: "advantage-img-2.jpg",
   },
   {
     icon: "advantage-mobile.svg",
     title: "Mobile Friendly",
-    img: "advantage-img-3.png",
+    img: "advantage-img-3.jpg",
   },
 ];
 
@@ -74,23 +74,23 @@ export const ADVANTAGE_BOTTOM_CARDS = [
 export const EXPLORE_CARDS = [
   {
     title: "Khala",
-    img: "explore-img-khala.png",
+    img: "explore-img-khala.jpg",
   },
   {
     title: "Acala",
-    img: "explore-img-acala.png",
+    img: "explore-img-acala.jpg",
   },
   {
     title: "Karura",
-    img: "explore-img-karura.png",
+    img: "explore-img-karura.jpg",
   },
   {
     title: "Bifrost",
-    img: "explore-img-bifrost.png",
+    img: "explore-img-bifrost.jpg",
   },
   {
     title: "Kintsugi",
-    img: "explore-img-kintsugi.png",
+    img: "explore-img-kintsugi.jpg",
   },
 ];
 

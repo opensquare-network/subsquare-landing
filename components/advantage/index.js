@@ -13,7 +13,7 @@ const Wrapper = styled.div`
     padding: 30px 0 40px;
   }
   > div {
-    transition: all 1s ease-in;
+    transition: all 0.8s ease-out;
     opacity: 0;
     transform: translateY(40px);
   }

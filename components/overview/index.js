@@ -57,6 +57,7 @@ const ImageWrapper = styled.div`
   border-radius: 20px 20px 0px 0px;
   overflow: hidden;
   max-width: 100%;
+  line-height: 0;
   box-shadow: 0px 6px 22px rgba(30, 33, 52, 0.11),
     0px 1.34018px 4.91399px rgba(30, 33, 52, 0.0655718),
     0px 0.399006px 1.46302px rgba(30, 33, 52, 0.0444282);

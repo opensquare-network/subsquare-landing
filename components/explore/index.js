@@ -15,7 +15,7 @@ const Wrapper = styled.div`
     padding: 40px 0;
   }
   > div {
-    transition: all 1s ease-in;
+    transition: all 0.8s ease-out;
     opacity: 0;
     transform: translateY(40px);
   }
@@ -37,7 +37,7 @@ const CardWrapper = styled.div`
   margin-top: 40px;
   scroll-snap-type: inline mandatory;
   > * {
-    transition: all 0.2s ease-in;
+    transition: all 0.4s ease-in-out;
     transform: translateX(${(p) => p.currentIndex * -367}px);
     scroll-snap-align: start;
   }
