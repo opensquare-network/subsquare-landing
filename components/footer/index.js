@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Container from "components/container";
 import ExternalLink from "components/externalLink";
 
-const Wrapper = styled.div`
+const Wrapper = styled.footer`
   border-top: 1px solid #ebeef4;
   background: #ffffff;
   position: relative;

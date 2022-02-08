@@ -8,6 +8,7 @@ import Feature from "components/feature";
 import Advantage from "components/advantage";
 import Explore from "components/explore";
 import Footer from "components/footer";
+import Preload from "components/preload";
 
 const Layout = styled.div`
   display: flex;
@@ -23,22 +24,25 @@ const Main = styled.main`
 
 export default function Home() {
   return (
-    <Layout>
-      <Head>
-        <title>Subsquare</title>
-        <meta name="description" content="Subsquare landing page" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <>
+      <Preload />
+      <Layout>
+        <Head>
+          <title>Subsquare</title>
+          <meta name="description" content="Subsquare landing page" />
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
 
-      <Header />
-      <Main>
-        <Overview />
-        <Partner />
-        <Feature />
-        <Advantage />
-        <Explore />
-      </Main>
-      <Footer />
-    </Layout>
+        <Header />
+        <Main>
+          <Overview />
+          <Partner />
+          <Feature />
+          <Advantage />
+          <Explore />
+        </Main>
+        <Footer />
+      </Layout>
+    </>
   );
 }

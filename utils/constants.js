@@ -93,3 +93,11 @@ export const EXPLORE_CARDS = [
     img: "explore-img-kintsugi.png",
   },
 ];
+
+export const PRELOAD_IMGS = [
+  "acala.svg",
+  "karura.svg",
+  "khala.svg",
+  "kintsugi.svg",
+  "kabocha.svg",
+];
