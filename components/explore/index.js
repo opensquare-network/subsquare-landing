@@ -35,9 +35,11 @@ const CardWrapper = styled.div`
   display: flex;
   overflow-x: hidden;
   margin-top: 40px;
+  scroll-snap-type: inline mandatory;
   > * {
     transition: all 0.2s ease-in;
     transform: translateX(${(p) => p.currentIndex * -367}px);
+    scroll-snap-align: start;
   }
   > :not(:first-child) {
     margin-left: 21px;

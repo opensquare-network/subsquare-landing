@@ -59,8 +59,19 @@ const RightWrapper = styled.div`
   flex-grow: 1;
   margin-left: 24px;
   line-height: 0;
+  position: relative;
   > img {
+    position: absolute;
     width: 100%;
+    opacity: 0;
+    transform: translateY(20px);
+    &.display {
+      transition: all 0.5s ease-in;
+      position: static;
+      display: block;
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
   @media screen and (max-width: 800px) {
     display: none;
@@ -98,8 +109,20 @@ export default function Feature() {
             ))}
           </LeftWrapper>
           <RightWrapper>
-            {activeIndex === 0 && <img src="/imgs/feature-img-1.png" alt="" />}
-            {activeIndex === 1 && <img src="/imgs/feature-img-2.png" alt="" />}
+            {
+              <img
+                className={activeIndex === 0 ? "display" : ""}
+                src="/imgs/feature-img-1.png"
+                alt=""
+              />
+            }
+            {
+              <img
+                className={activeIndex === 1 ? "display" : ""}
+                src="/imgs/feature-img-2.png"
+                alt=""
+              />
+            }
           </RightWrapper>
         </ContentWrapper>
       </Container>

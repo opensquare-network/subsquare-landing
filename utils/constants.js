@@ -12,22 +12,10 @@ export const OPTIONS = [
     url: "https://karura.subsquare.io/",
   },
   {
-    value: "kusama",
-    text: "Kusama",
-    icon: "kusama.svg",
-    url: "https://kusama.subsquare.io/",
-  },
-  {
     value: "khala",
     text: "Khala",
     icon: "khala.svg",
     url: "https://khala.subsquare.io/",
-  },
-  {
-    value: "basilisk",
-    text: "Basilisk",
-    icon: "basilisk.svg",
-    url: "https://basilisk.subsquare.io/",
   },
   {
     value: "kintsugi",

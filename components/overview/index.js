@@ -62,6 +62,7 @@ const ImageWrapper = styled.div`
     0px 0.399006px 1.46302px rgba(30, 33, 52, 0.0444282);
   > img {
     width: 100%;
+    max-width: 960px;
   }
 `;
 
@@ -70,9 +71,9 @@ export default function Overview() {
     <Wrapper>
       <Content>
         <Title>
-          <div>Build the Future of</div>
+          <div>Empower the Governance</div>
           <div>
-            Substrate<span>_</span>
+            of Substrate<span>_</span>
           </div>
         </Title>
         <Text>
