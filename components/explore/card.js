@@ -23,6 +23,10 @@ const Wrapper = styled.div`
       display: block;
     }
   }
+  transform: translateX(${(p) => p.offset * 367 * 5}px);
+  @media screen and (max-width: 1200px) {
+    transform: translateX(0);
+  }
 `;
 
 const ImgWrapper = styled.div`
@@ -51,9 +55,10 @@ const TitleWrapper = styled.div`
   line-height: 100%;
 `;
 
-export default function Card({ data }) {
+export default function Card({ data, currentIndex, index }) {
+  const offset = Math.floor((currentIndex - index + 3) / 5);
   return (
-    <Wrapper>
+    <Wrapper currentIndex={currentIndex} offset={offset}>
       <ImgWrapper>
         <img src={`/imgs/${data.img}`} alt="" />
       </ImgWrapper>

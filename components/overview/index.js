@@ -89,8 +89,9 @@ export default function Overview() {
           </div>
         </Title>
         <Text>
-          Strapi is the leading open-source headless CMS. It’s 100% JavaScript,
-          fully customizable and developer-first.
+          SubSquare scans and normalizes the blockchain governance data. It
+          enables community members to propose, vote proposals and discuss the
+          corresponding topics.
         </Text>
         <Button>Get the SubSqaure</Button>
       </Content>

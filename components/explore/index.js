@@ -31,19 +31,9 @@ const CardContainer = styled.div`
   position: relative;
 `;
 
-const CardWrapper = styled.div`
-  display: flex;
+const CardOuterWrapper = styled.div`
   overflow-x: hidden;
   margin-top: 40px;
-  scroll-snap-type: inline mandatory;
-  > * {
-    transition: all 0.4s ease-in-out;
-    transform: translateX(${(p) => p.currentIndex * -367}px);
-    scroll-snap-align: start;
-  }
-  > :not(:first-child) {
-    margin-left: 21px;
-  }
   @media screen and (max-width: 800px) {
     margin-top: 24px;
   }
@@ -51,12 +41,23 @@ const CardWrapper = styled.div`
     margin-left: -16px;
     margin-right: -16px;
   }
+`;
+
+const CardWrapper = styled.div`
+  display: flex;
+  scroll-snap-type: inline mandatory;
+  transition: all 0.4s ease-in-out;
+  transform: translateX(${(p) => p.currentIndex * -367}px);
+  > * {
+    scroll-snap-align: start;
+  }
+  > :not(:first-child) {
+    margin-left: 21px;
+  }
   @media screen and (max-width: 1200px) {
     overflow-x: scroll;
-    > * {
-      transition: none;
-      transform: translateX(0);
-    }
+    transition: none;
+    transform: translateX(0);
   }
 `;
 
@@ -102,7 +103,6 @@ export default function Advantage() {
 
   const onIncrease = (increase) => {
     const target = currentIndex + increase;
-    if (target < 0 || target >= EXPLORE_CARDS.length - 2) return;
     setCurrentIndex(target);
   };
 
@@ -124,11 +124,18 @@ export default function Advantage() {
           color="#4CAF50"
         />
         <CardContainer>
-          <CardWrapper currentIndex={currentIndex} ref={cardRef}>
-            {(EXPLORE_CARDS || []).map((item, index) => (
-              <Card key={index} data={item} />
-            ))}
-          </CardWrapper>
+          <CardOuterWrapper>
+            <CardWrapper currentIndex={currentIndex} ref={cardRef}>
+              {(EXPLORE_CARDS || []).map((item, index) => (
+                <Card
+                  key={index}
+                  data={item}
+                  currentIndex={currentIndex}
+                  index={index}
+                />
+              ))}
+            </CardWrapper>
+          </CardOuterWrapper>
           <LeftArrowButton onClick={() => onIncrease(-1)}>
             <img src="/imgs/icons/caret-left.svg" alt="" />
           </LeftArrowButton>
