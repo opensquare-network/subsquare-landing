@@ -62,9 +62,12 @@ const RightWrapper = styled.div`
   position: relative;
   > img {
     position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     opacity: 0;
     transform: translateY(20px);
+    transition: all 0.5s ease-out;
     &.display {
       transition: all 0.5s ease-in;
       position: static;

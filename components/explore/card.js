@@ -15,14 +15,15 @@ const Wrapper = styled.div`
   overflow: hidden;
   cursor: pointer;
   img.arrow {
-    display: none;
+    transform: translateX(-10px);
+    opacity: 0;
   }
   :hover {
-    /* box-shadow: 0px 6px 22px rgba(30, 33, 52, 0.11),
-      0px 1.34018px 4.91399px rgba(30, 33, 52, 0.0655718),
-      0px 0.399006px 1.46302px rgba(30, 33, 52, 0.0444282); */
     img.arrow {
+      transition: all 0.2s ease-in;
+      transform: translateX(0);
       display: block;
+      opacity: 1;
     }
   }
   transform: translateX(${(p) => p.offset * 367 * 5}px);

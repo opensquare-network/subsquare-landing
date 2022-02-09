@@ -3,10 +3,12 @@ import styled from "styled-components";
 import { useEffect, useState } from "react";
 
 const Wrapper = styled.img`
-  transition: all 0.2s ease-in;
   transform: translateX(-10px);
+  opacity: 0;
   &.display {
+    transition: all 0.2s ease-in;
     transform: translateX(0);
+    opacity: 1;
   }
 `;
 
