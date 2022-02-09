@@ -24,21 +24,31 @@ const Title = styled.div`
   font-size: 64px;
   line-height: 120%;
   text-align: center;
-  span {
-    color: #6848ff;
-    animation: "blinker" 1.5s infinite;
-    margin-left: 8px;
-  }
-  @keyframes blinker {
-    50% {
-      opacity: 0;
-    }
-  }
   @media screen and (max-width: 800px) {
     font-size: 48px;
   }
   @media screen and (max-width: 600px) {
     font-size: 32px;
+  }
+`;
+
+const Underscore = styled.div`
+  ::after {
+    content: "";
+    display: block;
+    width: 30.5px;
+    height: 7.3px;
+    background: #6848ff;
+  }
+  display: inline-block;
+  color: #6848ff;
+  animation: "blinker" 1.5s infinite;
+  margin-left: 8px;
+  line-height: 100%;
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
   }
 `;
 
@@ -74,7 +84,8 @@ export default function Overview() {
         <Title>
           <div>Empower the Governance</div>
           <div>
-            of Substrate<span>_</span>
+            of substrate
+            <Underscore />
           </div>
         </Title>
         <Text>
