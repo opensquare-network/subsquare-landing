@@ -31,6 +31,29 @@ export const OPTIONS = [
   },
 ];
 
+export const PARTNERS = [
+  {
+    icon: "project-khala.svg",
+    url: "https://khala.subsquare.io/",
+  },
+  {
+    icon: "project-acala.svg",
+    url: "https://acala.subsquare.io/",
+  },
+  {
+    icon: "project-karura.svg",
+    url: "https://karura.subsquare.io/",
+  },
+  {
+    icon: "project-bifrost.svg",
+    url: "https://bifrost.subsquare.io/",
+  },
+  {
+    icon: "project-kintsugi.svg",
+    url: "https://kintsugi.subsquare.io/",
+  },
+];
+
 export const FEATURE_TABS = [
   {
     title: "Governance Visualization",

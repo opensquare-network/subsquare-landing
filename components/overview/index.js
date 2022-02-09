@@ -50,6 +50,18 @@ const Underscore = styled.div`
       opacity: 0;
     }
   }
+  @media screen and (max-width: 800px) {
+    ::after {
+      width: 24px;
+      height: 6px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    ::after {
+      width: 15.3px;
+      height: 3.7px;
+    }
+  }
 `;
 
 const Text = styled.div`

@@ -1,5 +1,8 @@
 import styled from "styled-components";
 
+import ExternalLink from "components/externalLink";
+import { PARTNERS } from "utils/constants";
+
 const Wrapper = styled.div`
   background: #1e2134;
   padding: 40px 24px;
@@ -29,7 +32,11 @@ const ProjectWrapper = styled.div`
   justify-content: center;
   flex-wrap: wrap;
   > * {
+    opacity: 0.4;
     margin: 0 20px;
+    :hover {
+      opacity: 0.6;
+    }
   }
   @media screen and (max-width: 800px) {
     > * {
@@ -43,11 +50,11 @@ export default function Partner() {
     <Wrapper>
       <Title>Trusted By the Best Projects</Title>
       <ProjectWrapper>
-        <img src="/imgs/icons/project-khala.svg" alt="" />
-        <img src="/imgs/icons/project-acala.svg" alt="" />
-        <img src="/imgs/icons/project-karura.svg" alt="" />
-        <img src="/imgs/icons/project-bifrost.svg" alt="" />
-        <img src="/imgs/icons/project-kintsugi.svg" alt="" />
+        {PARTNERS.map((item, index) => (
+          <ExternalLink href={item.url} key={index}>
+            <img src={`/imgs/icons/${item.icon}`} alt="" />
+          </ExternalLink>
+        ))}
       </ProjectWrapper>
     </Wrapper>
   );

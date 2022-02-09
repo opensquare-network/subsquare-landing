@@ -57,8 +57,8 @@ export default function Advantage() {
       <Container>
         <Title
           topic="ADVANTAGES"
-          title="The Better Experience"
-          text="Quis curabitur ultricies integer sed mi volutpat. Ullamcorper magna eleifend accumsan."
+          title="Better User Exeperience"
+          text="Product details are fully polished to help users express their ideas smoothly."
           color="#6848FF"
         />
         <CardWrapper>
