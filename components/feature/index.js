@@ -13,9 +13,9 @@ const Wrapper = styled.div`
     padding: 40px 0 30px;
   }
   > div {
-    transition: all 0.8s ease-out;
     opacity: 0;
     transform: translateY(40px);
+    transition: all 0.8s ease-out;
   }
   &.display {
     > div {
@@ -67,9 +67,8 @@ const RightWrapper = styled.div`
     width: 100%;
     opacity: 0;
     transform: translateY(20px);
-    transition: all 0.5s ease-out;
     &.display {
-      transition: all 0.5s ease-in;
+      transition: all 0.5s ease-out;
       position: static;
       display: block;
       opacity: 1;

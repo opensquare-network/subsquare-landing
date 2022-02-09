@@ -1,6 +1,5 @@
 import styled, { css } from "styled-components";
 
-import Arrow from "components/arrow";
 import { useWindowSize } from "utils/hooks";
 
 const Wrapper = styled.div`
@@ -21,6 +20,15 @@ const TitleWrapper = styled.div`
   font-weight: bold;
   font-size: 16px;
   line-height: 100%;
+  > img {
+    transform: translateX(-10px);
+    opacity: 0;
+  }
+  > img.display {
+    transform: translateX(0);
+    transition: all 0.2s ease-out;
+    opacity: 1;
+  }
 `;
 
 const ContentWrapper = styled.div`
@@ -45,7 +53,11 @@ export default function Tab({ title, items, active, onClick }) {
     <Wrapper active={active || width <= 800} onClick={onClick}>
       <TitleWrapper>
         <div>{title}</div>
-        {(active || width <= 800) && <Arrow />}
+        <img
+          className={active || width <= 800 ? "display" : ""}
+          src="/imgs/icons/arrow-right.svg"
+          alt=""
+        />
       </TitleWrapper>
       <ContentWrapper>
         {(items || []).map((item, index) => (

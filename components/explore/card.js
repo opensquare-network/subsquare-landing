@@ -20,7 +20,7 @@ const Wrapper = styled.div`
   }
   :hover {
     img.arrow {
-      transition: all 0.2s ease-in;
+      transition: all 0.2s ease-out;
       transform: translateX(0);
       display: block;
       opacity: 1;
