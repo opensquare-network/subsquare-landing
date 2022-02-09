@@ -99,11 +99,17 @@ export default function Advantage() {
   const cardRef = useRef();
   const display = useDisplay(ref);
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isLoading, setIsLoading] = useState(false);
   const { width } = useWindowSize();
 
   const onIncrease = (increase) => {
+    if (isLoading) return;
+    setIsLoading(true);
     const target = currentIndex + increase;
     setCurrentIndex(target);
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 400);
   };
 
   useEffect(() => {
