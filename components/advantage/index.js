@@ -57,7 +57,7 @@ export default function Advantage() {
       <Container>
         <Title
           topic="ADVANTAGES"
-          title="Better User Exeperience"
+          title="Better User Experience"
           text="Product details are fully polished to help users express their ideas smoothly."
           color="#6848FF"
         />
