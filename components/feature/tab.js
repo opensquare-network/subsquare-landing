@@ -18,6 +18,9 @@ const TitleWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 100%;
 `;
 
 const ContentWrapper = styled.div`

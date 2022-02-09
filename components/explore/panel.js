@@ -48,7 +48,7 @@ export default function Panel() {
         Join thousands of people deploying hundreds of thousands of applications
         effortlessly on Railway
       </div>
-      <Button>Get the SubSqaure</Button>
+      <Button>Contact Us</Button>
     </Wrapper>
   );
 }

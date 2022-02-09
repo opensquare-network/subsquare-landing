@@ -75,22 +75,27 @@ export const EXPLORE_CARDS = [
   {
     title: "Khala",
     img: "explore-img-khala.jpg",
+    url: "https://khala.subsquare.io/",
   },
   {
     title: "Acala",
     img: "explore-img-acala.jpg",
+    url: "https://acala.subsquare.io/",
   },
   {
     title: "Karura",
     img: "explore-img-karura.jpg",
+    url: "https://karura.subsquare.io/",
   },
   {
     title: "Bifrost",
     img: "explore-img-bifrost.jpg",
+    url: "https://bifrost.subsquare.io/",
   },
   {
     title: "Kintsugi",
     img: "explore-img-kintsugi.jpg",
+    url: "https://kintsugi.subsquare.io/",
   },
 ];
 

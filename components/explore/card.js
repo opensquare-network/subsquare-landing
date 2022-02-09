@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import ExternalLink from "components/externalLink";
+
 const Wrapper = styled.div`
   flex: 0 0 auto;
   background: #ffffff;
@@ -58,14 +60,16 @@ const TitleWrapper = styled.div`
 export default function Card({ data, currentIndex, index }) {
   const offset = Math.floor((currentIndex - index + 3) / 5);
   return (
-    <Wrapper currentIndex={currentIndex} offset={offset}>
-      <ImgWrapper>
-        <img src={`/imgs/${data.img}`} alt="" />
-      </ImgWrapper>
-      <TitleWrapper>
-        <div>{data.title}</div>
-        <img className="arrow" src="/imgs/icons/arrow-right.svg" alt="" />
-      </TitleWrapper>
-    </Wrapper>
+    <ExternalLink href={data.url}>
+      <Wrapper currentIndex={currentIndex} offset={offset}>
+        <ImgWrapper>
+          <img src={`/imgs/${data.img}`} alt="" />
+        </ImgWrapper>
+        <TitleWrapper>
+          <div>{data.title}</div>
+          <img className="arrow" src="/imgs/icons/arrow-right.svg" alt="" />
+        </TitleWrapper>
+      </Wrapper>
+    </ExternalLink>
   );
 }

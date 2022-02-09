@@ -89,11 +89,10 @@ export default function Overview() {
           </div>
         </Title>
         <Text>
-          SubSquare scans and normalizes the blockchain governance data. It
-          enables community members to propose, vote proposals and discuss the
-          corresponding topics.
+          SubSquare enables community members to propose, discuss and vote on
+          governance proposals.
         </Text>
-        <Button>Get the SubSqaure</Button>
+        <Button>Get SubSqaure</Button>
       </Content>
       <ImageWrapper>
         <img src="/imgs/overview-img.png" alt="" />

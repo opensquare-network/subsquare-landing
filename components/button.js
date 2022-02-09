@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import ExternalLink from "./externalLink";
+
 const Wrapper = styled.div`
   background: #6848ff;
   border-radius: 4px;
@@ -13,5 +15,9 @@ const Wrapper = styled.div`
 `;
 
 export default function Button({ children }) {
-  return <Wrapper>{children}</Wrapper>;
+  return (
+    <ExternalLink href="mailto:yongfeng@opensquare.network">
+      <Wrapper>{children}</Wrapper>
+    </ExternalLink>
+  );
 }
