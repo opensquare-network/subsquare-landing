@@ -9,62 +9,40 @@ const Wrapper = styled.footer`
   position: relative;
 `;
 
-const TopWrapper = styled.div`
+const ContentWrapper = styled.div`
   height: 64px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
   > :first-child {
-    display: flex;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 100%;
-    color: #506176;
-    > :not(:first-child) {
-      margin-left: 24px;
-    }
-  }
-  > :last-child {
-    display: flex;
-    > :not(:first-child) {
-      margin-left: 8px;
-    }
-  }
-`;
-
-const BottomWrapper = styled.div`
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
-  align-items: center;
-  > :first-child {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 100%;
     color: #506176;
   }
-  > :last-child {
+  > :nth-child(2) {
     margin-left: 16px;
+    color: #9da9bb;
     display: flex;
     align-items: center;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 100%;
-    color: #9da9bb;
     > :not(:first-child) {
       margin-left: 16px;
     }
   }
+  > :last-child {
+    display: flex;
+    margin-left: auto;
+    line-height: 0;
+    > :not(:first-child) {
+      margin-left: 8px;
+    }
+  }
   @media screen and (max-width: 800px) {
-    position: static;
-    padding: 16px 0;
-    transform: none;
     flex-direction: column;
-    > :last-child {
-      margin-left: 0;
+    height: auto;
+    padding: 24px 16px;
+    > :not(:first-child) {
       margin-top: 16px;
+      margin-left: 0;
     }
   }
 `;
@@ -73,10 +51,11 @@ export default function Footer() {
   return (
     <Wrapper>
       <Container>
-        <TopWrapper>
+        <ContentWrapper>
+          <div>© 2022 SubSquare</div>
           <div>
-            <ExternalLink href="/">Terms</ExternalLink>
-            <ExternalLink href="/">Privacy</ExternalLink>
+            <div>Powered by</div>
+            <img src="/imgs/logo-opensquare.svg" alt="" />
           </div>
           <div>
             <ExternalLink href="mailto:hi@opensquare.network">
@@ -86,14 +65,7 @@ export default function Footer() {
               <img src="/imgs/icons/element.svg" alt="" />
             </ExternalLink>
           </div>
-        </TopWrapper>
-        <BottomWrapper>
-          <div>© 2022 SubSquare</div>
-          <div>
-            <div>Powered by</div>
-            <img src="/imgs/logo-opensquare.svg" alt="" />
-          </div>
-        </BottomWrapper>
+        </ContentWrapper>
       </Container>
     </Wrapper>
   );
