@@ -126,7 +126,7 @@ export default function Advantage() {
         <Title
           topic="EXPLORE"
           title="Who Uses SubSquare"
-          text="Quis curabitur ultricies integer sed mi volutpat. Ullamcorper magna eleifend accumsan."
+          text="Integrated several leading projects in the polkadot ecosystem. Tell me if you are interested."
           color="#4CAF50"
         />
         <CardContainer>

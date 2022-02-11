@@ -9,7 +9,7 @@ const Wrapper = styled.div`
     drop-shadow(0px 1.34018px 1.56354px rgba(30, 33, 52, 0.0119221))
     drop-shadow(0px 0.399006px 0.465507px rgba(30, 33, 52, 0.00807786));
   border-radius: 6px;
-  padding: 48px 24px;
+  padding: 60px 24px;
   background-image: url("/imgs/explore-bg.svg");
   background-position: center;
   margin-top: 80px;
@@ -21,21 +21,18 @@ const Wrapper = styled.div`
   }
   > :nth-child(2) {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 32px;
     line-height: 140%;
-    max-width: 300px;
+    max-width: 340px;
     text-align: center;
-  }
-  > :nth-child(3) {
-    font-size: 16px;
-    line-height: 140%;
-    text-align: center;
-    color: #9da9bb;
-    max-width: 480px;
   }
   @media screen and (max-width: 800px) {
     margin-top: 40px;
     padding: 40px 16px;
+    > :nth-child(2) {
+      font-size: 20px;
+      max-width: 220px;
+    }
   }
 `;
 
@@ -43,11 +40,7 @@ export default function Panel() {
   return (
     <Wrapper>
       <img src="/imgs/logo-img.svg" alt="" />
-      <div>Deploy Substrate to Project Based on Substrate</div>
-      <div>
-        Join thousands of people deploying hundreds of thousands of applications
-        effortlessly on Railway
-      </div>
+      <div>Integrate Your Project to SubSquare</div>
       <Button>Contact Us</Button>
     </Wrapper>
   );

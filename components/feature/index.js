@@ -91,7 +91,7 @@ export default function Feature() {
         <Title
           topic="TOP FEATURES"
           title="Where Governance Start"
-          text="Interdum tellus molestie turpis dolor massa hendrerit quam. Molestie et gravida eu sit vitae sed in ultricies ac."
+          text="Rich features to help users examine governance data, vote on referendums, and manage treasury."
           color="#4CAF50"
         />
         <ContentWrapper>
