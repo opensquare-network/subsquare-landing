@@ -58,7 +58,7 @@ export default function Advantage() {
         <Title
           topic="ADVANTAGES"
           title="Better User Experience"
-          text="Product details are fully polished to help users express their ideas smoothly."
+          text="Fully polished to make users express their ideas smoothly and keep iterating."
           color="#6848FF"
         />
         <CardWrapper>

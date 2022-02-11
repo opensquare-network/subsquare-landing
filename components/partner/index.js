@@ -38,9 +38,17 @@ const ProjectWrapper = styled.div`
       opacity: 0.6;
     }
   }
+  img {
+    width: 130px;
+    height: 40px;
+  }
   @media screen and (max-width: 800px) {
     > * {
       margin: 0 10px;
+    }
+    img {
+      width: 104px;
+      height: 32px;
     }
   }
 `;
