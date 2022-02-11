@@ -46,6 +46,7 @@ const CardOuterWrapper = styled.div`
 const CardWrapper = styled.div`
   display: flex;
   scroll-snap-type: inline mandatory;
+  scroll-padding: 0 16px;
   transition: all 0.4s ease-in-out;
   transform: translateX(${(p) => p.currentIndex * -367}px);
   > * {
@@ -53,6 +54,9 @@ const CardWrapper = styled.div`
   }
   > :not(:first-child) {
     margin-left: 21px;
+  }
+  @media screen and (max-width: 1080px) {
+    padding: 0 16px;
   }
   @media screen and (max-width: 1200px) {
     overflow-x: scroll;

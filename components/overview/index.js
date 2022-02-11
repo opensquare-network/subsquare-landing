@@ -75,14 +75,9 @@ const Text = styled.div`
 const ImageWrapper = styled.div`
   width: fit-content;
   margin: 40px auto 0;
-  border: 1px solid #ebeef4;
-  border-radius: 20px 20px 0px 0px;
   overflow: hidden;
   max-width: 100%;
   line-height: 0;
-  box-shadow: 0px 6px 22px rgba(30, 33, 52, 0.11),
-    0px 1.34018px 4.91399px rgba(30, 33, 52, 0.0655718),
-    0px 0.399006px 1.46302px rgba(30, 33, 52, 0.0444282);
   > img {
     width: 100%;
     max-width: 960px;

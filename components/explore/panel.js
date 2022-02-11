@@ -23,7 +23,7 @@ const Wrapper = styled.div`
     font-weight: bold;
     font-size: 32px;
     line-height: 140%;
-    max-width: 340px;
+    max-width: 360px;
     text-align: center;
   }
   @media screen and (max-width: 800px) {
