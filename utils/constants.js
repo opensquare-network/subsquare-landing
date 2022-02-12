@@ -7,7 +7,7 @@ export const OPTIONS = [
   },
   {
     value: "karura",
-    text: "Larura",
+    text: "Karura",
     icon: "karura.svg",
     url: "https://karura.subsquare.io/",
   },
