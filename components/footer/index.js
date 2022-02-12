@@ -58,7 +58,7 @@ export default function Footer() {
             <img src="/imgs/logo-opensquare.svg" alt="" />
           </div>
           <div>
-            <ExternalLink href="mailto:hi@opensquare.network">
+            <ExternalLink href="mailto:yongfeng@opensquare.network">
               <img src="/imgs/icons/mail.svg" alt="" />
             </ExternalLink>
             <ExternalLink href="https://app.element.io/#/room/#opensquare:matrix.org">
