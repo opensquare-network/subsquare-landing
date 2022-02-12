@@ -18,6 +18,12 @@ export const OPTIONS = [
     url: "https://khala.subsquare.io/",
   },
   {
+    value: "bifrost",
+    text: "Bifrost",
+    icon: "bifrost.svg",
+    url: "https://bifrost.subsquare.io/",
+  },
+  {
     value: "kintsugi",
     text: "Kintsugi",
     icon: "kintsugi.svg",
