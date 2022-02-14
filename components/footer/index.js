@@ -55,7 +55,9 @@ export default function Footer() {
           <div>© 2022 SubSquare</div>
           <div>
             <div>Powered by</div>
-            <img src="/imgs/logo-opensquare.svg" alt="" />
+            <ExternalLink href="https://www.opensquare.network/">
+              <img src="/imgs/logo-opensquare.svg" alt="" />
+            </ExternalLink>
           </div>
           <div>
             <ExternalLink href="mailto:yongfeng@opensquare.network">
