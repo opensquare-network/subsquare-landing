@@ -78,6 +78,7 @@ const ImageWrapper = styled.div`
   overflow: hidden;
   max-width: 100%;
   line-height: 0;
+  filter: drop-shadow(0px 6px 22px rgba(30, 33, 52, 0.11)) drop-shadow(0px 1.34018px 4.91399px rgba(30, 33, 52, 0.0655718)) drop-shadow(0px 0.399006px 1.46302px rgba(30, 33, 52, 0.0444282));
   > img {
     width: 100%;
     max-width: 960px;
