@@ -34,7 +34,7 @@ export default function Home() {
       ...defaultSeoInfo,
       images: [
         {
-          url: '/imgs/1200x628-twitter.png',
+          url: 'https://winter-sea-8219.on.fleek.co/imgs/1200x628-twitter.png',
           width: 1200,
           height: 628,
           alt: 'Og Image Alt',
