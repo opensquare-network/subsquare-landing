@@ -9,6 +9,7 @@ import Advantage from "components/advantage";
 import Explore from "components/explore";
 import Footer from "components/footer";
 import Preload from "components/preload";
+import { NextSeo } from 'next-seo';
 
 const Layout = styled.div`
   display: flex;
@@ -25,11 +26,15 @@ const Main = styled.main`
 export default function Home() {
   return (
     <>
+      <NextSeo
+        title="SubSquare | Empower the Governance of substrate"
+        description="A platform that scans and normalizes the blockchain governance data. It enables community members to propose, vote proposals and discuss the corresponding topics."
+      />
       <Preload />
       <Layout>
         <Head>
           <title>Subsquare</title>
-          <meta name="description" content="Subsquare landing page" />
+          <meta name="thumbnail" content="https://www.subsquare.io/imgs/seo-thumbnail.jpg" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
