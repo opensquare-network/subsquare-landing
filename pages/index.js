@@ -34,7 +34,7 @@ export default function Home() {
       ...defaultSeoInfo,
       images: [
         {
-          url: 'https://ipfs.fleek.co/ipfs/bafybeif4ru2wovqtt4adq7xkhfcrcvdvbckfd36vrxhngct2z5cntobel4',
+          url: 'https://ipfs.fleek.co/ipfs/bafybeigdvohyozmu76ttwoae6rfx4rkvspspj3xqfv7ogz2ncmj4ub2y7y',
           width: 1200,
           height: 628,
           alt: 'Og Image Alt',
