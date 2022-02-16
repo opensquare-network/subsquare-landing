@@ -34,7 +34,7 @@ export default function Home() {
       ...defaultSeoInfo,
       images: [
         {
-          url: 'https://winter-sea-8219.on.fleek.co/imgs/1200x628-twitter.png',
+          url: 'https://ipfs.fleek.co/ipfs/bafybeif4ru2wovqtt4adq7xkhfcrcvdvbckfd36vrxhngct2z5cntobel4',
           width: 1200,
           height: 628,
           alt: 'Og Image Alt',
@@ -58,7 +58,7 @@ export default function Home() {
       <Layout>
         <Head>
           <title>Subsquare</title>
-          <meta name="thumbnail" content="https://www.subsquare.io/imgs/seo-thumbnail.jpg" />
+          <meta name="thumbnail" content="https://ipfs.fleek.co/ipfs/bafybeie7dlklmnv5uioexc5erpli3kowir65chm66khtjkw2h46cil7w7q" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
