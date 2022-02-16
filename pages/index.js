@@ -24,11 +24,35 @@ const Main = styled.main`
 `;
 
 export default function Home() {
+  const defaultSeoInfo = {
+    title:`SubSquare | Empower the Governance of substrate`,
+    description:`A platform that scans and normalizes the blockchain governance data. It enables community members to propose, vote proposals and discuss the corresponding topics.`,
+  };
+  const seoInfo = {
+    ...defaultSeoInfo,
+    openGraph: {
+      ...defaultSeoInfo,
+      images: [
+        {
+          url: '/imgs/1200x628-twitter.png',
+          width: 1200,
+          height: 628,
+          alt: 'Og Image Alt',
+          type: 'image/png',
+        },
+      ],
+    },
+    twitter: {
+      handle: '@handle',
+      site: '@site',
+      cardType: 'summary_large_image',
+    }
+  }
+
   return (
     <>
       <NextSeo
-        title="SubSquare | Empower the Governance of substrate"
-        description="A platform that scans and normalizes the blockchain governance data. It enables community members to propose, vote proposals and discuss the corresponding topics."
+        {...seoInfo}
       />
       <Preload />
       <Layout>
