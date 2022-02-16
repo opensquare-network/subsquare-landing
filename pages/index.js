@@ -9,6 +9,7 @@ import Advantage from "components/advantage";
 import Explore from "components/explore";
 import Footer from "components/footer";
 import Preload from "components/preload";
+import { NextSeo } from 'next-seo';
 
 const Layout = styled.div`
   display: flex;
@@ -23,13 +24,41 @@ const Main = styled.main`
 `;
 
 export default function Home() {
+  const defaultSeoInfo = {
+    title:`SubSquare | Empower the Governance of substrate`,
+    description:`A platform that scans and normalizes the blockchain governance data. It enables community members to propose, vote proposals and discuss the corresponding topics.`,
+  };
+  const seoInfo = {
+    ...defaultSeoInfo,
+    openGraph: {
+      ...defaultSeoInfo,
+      images: [
+        {
+          url: 'https://ipfs.fleek.co/ipfs/bafybeigdvohyozmu76ttwoae6rfx4rkvspspj3xqfv7ogz2ncmj4ub2y7y',
+          width: 1200,
+          height: 628,
+          alt: 'Og Image Alt',
+          type: 'image/png',
+        },
+      ],
+    },
+    twitter: {
+      handle: '@handle',
+      site: '@site',
+      cardType: 'summary_large_image',
+    }
+  }
+
   return (
     <>
+      <NextSeo
+        {...seoInfo}
+      />
       <Preload />
       <Layout>
         <Head>
           <title>Subsquare</title>
-          <meta name="description" content="Subsquare landing page" />
+          <meta name="thumbnail" content="https://ipfs.fleek.co/ipfs/bafybeie7dlklmnv5uioexc5erpli3kowir65chm66khtjkw2h46cil7w7q" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
