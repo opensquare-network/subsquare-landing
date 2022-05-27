@@ -1,9 +1,9 @@
 export const OPTIONS = [
   {
-    value: "acala",
-    text: "Acala",
-    icon: "acala.svg",
-    url: "https://acala.subsquare.io/",
+    value: "kusama",
+    text: "Kusama",
+    icon: "kusama.svg",
+    url: "https://kusama.subsquare.io/",
   },
   {
     value: "karura",
@@ -12,10 +12,22 @@ export const OPTIONS = [
     url: "https://karura.subsquare.io/",
   },
   {
+    value: "acala",
+    text: "Acala",
+    icon: "acala.svg",
+    url: "https://acala.subsquare.io/",
+  },
+  {
     value: "khala",
     text: "Khala",
     icon: "khala.svg",
     url: "https://khala.subsquare.io/",
+  },
+  {
+    value: "kabocha",
+    text: "Kabocha",
+    icon: "kabocha.svg",
+    url: "https://kabocha.subsquare.io/",
   },
   {
     value: "bifrost",
@@ -30,14 +42,30 @@ export const OPTIONS = [
     url: "https://kintsugi.subsquare.io/",
   },
   {
-    value: "kabocha",
-    text: "Kabocha",
-    icon: "kabocha.svg",
-    url: "https://kabocha.subsquare.io/",
+    value: "interlay",
+    text: "Interlay",
+    icon: "interlay.svg",
+    url: "https://interlay.subsquare.io/",
+  },
+  {
+    value: "crust",
+    text: "Crust",
+    icon: "crust.svg",
+    url: "https://crust.subsquare.io/",
+  },
+  {
+    value: "calamari",
+    text: "Calamari",
+    icon: "calamari.svg",
+    url: "https://calamari.subsquare.io/",
   },
 ];
 
 export const PARTNERS = [
+  {
+    icon: "project-kusama.svg",
+    url: "https://kusama.subsquare.io/",
+  },
   {
     icon: "project-khala.svg",
     url: "https://khala.subsquare.io/",
@@ -57,6 +85,10 @@ export const PARTNERS = [
   {
     icon: "project-kintsugi.svg",
     url: "https://kintsugi.subsquare.io/",
+  },
+  {
+    icon: "project-interlay.svg",
+    url: "https://interlay.subsquare.io/",
   },
 ];
 
@@ -102,6 +134,11 @@ export const ADVANTAGE_BOTTOM_CARDS = [
 
 export const EXPLORE_CARDS = [
   {
+    title: "Kusama",
+    img: "explore-img-kusama.jpg",
+    url: "https://kusama.subsquare.io/",
+  },
+  {
     title: "Khala",
     img: "explore-img-khala.jpg",
     url: "https://khala.subsquare.io/",
@@ -125,6 +162,11 @@ export const EXPLORE_CARDS = [
     title: "Kintsugi",
     img: "explore-img-kintsugi.jpg",
     url: "https://kintsugi.subsquare.io/",
+  },
+  {
+    title: "Interlay",
+    img: "explore-img-interlay.jpg",
+    url: "https://interlay.subsquare.io/",
   },
 ];
 
