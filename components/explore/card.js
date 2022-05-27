@@ -26,7 +26,7 @@ const Wrapper = styled.div`
       opacity: 1;
     }
   }
-  transform: translateX(${(p) => p.offset * 367 * 5}px);
+  transform: translateX(${(p) => p.offset * 367 * 7}px);
   @media screen and (max-width: 1200px) {
     transform: translateX(0);
   }
