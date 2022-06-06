@@ -1,4 +1,10 @@
 export const OPTIONS = [
+  // {
+  //   value: "polkadot",
+  //   text: "Polkadot",
+  //   icon: "polkadot.svg",
+  //   url: "https://polkadot.subsquare.io",
+  // },
   {
     value: "kusama",
     text: "Kusama",
@@ -48,16 +54,22 @@ export const OPTIONS = [
     url: "https://interlay.subsquare.io/",
   },
   {
-    value: "crust",
-    text: "Crust",
-    icon: "crust.svg",
-    url: "https://crust.subsquare.io/",
+    value: "crab",
+    text: "Crab Network",
+    icon: "crab.svg",
+    url: "https://crab.subsquare.io/",
   },
   {
-    value: "calamari",
-    text: "Calamari",
-    icon: "calamari.svg",
-    url: "https://calamari.subsquare.io/",
+    value: "polkadex",
+    text: "Polkadex",
+    icon: "polkadex.svg",
+    url: "https://polkadex.subsquare.io/",
+  },
+  {
+    value: "turing",
+    text: "OAK Turing",
+    icon: "turing.svg",
+    url: "https://turing.subsquare.io/",
   },
 ];
 
