@@ -192,6 +192,21 @@ export const EXPLORE_CARDS = [
     img: "explore-img-interlay.jpg",
     url: "https://interlay.subsquare.io/",
   },
+  {
+    title: "Crab Network",
+    img: "explore-img-crab.jpg",
+    url: "https://crab.subsquare.io/",
+  },
+  {
+    title: "Polkadex",
+    img: "explore-img-polkadex.jpg",
+    url: "https://polkadex.subsquare.io/",
+  },
+  {
+    title: "Turing Network",
+    img: "explore-img-turing.jpg",
+    url: "https://turing.subsquare.io/",
+  },
 ];
 
 export const PRELOAD_IMGS = [

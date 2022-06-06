@@ -26,7 +26,7 @@ const Wrapper = styled.div`
       opacity: 1;
     }
   }
-  transform: translateX(${(p) => p.offset * 367 * 7}px);
+  transform: translateX(${(p) => p.offset * 367 * 10}px);
   @media screen and (max-width: 1200px) {
     transform: translateX(0);
   }
@@ -59,7 +59,7 @@ const TitleWrapper = styled.div`
 `;
 
 export default function Card({ data, currentIndex, index }) {
-  const offset = Math.floor((currentIndex - index + 3) / 5);
+  const offset = Math.floor((currentIndex - index + 8) / 10);
   return (
     <ExternalLink href={data.url}>
       <Wrapper currentIndex={currentIndex} offset={offset}>
