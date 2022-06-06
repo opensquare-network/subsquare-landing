@@ -102,6 +102,18 @@ export const PARTNERS = [
     icon: "project-interlay.svg",
     url: "https://interlay.subsquare.io/",
   },
+  {
+    icon: "project-crab.svg",
+    url: "https://crab.subsquare.io/",
+  },
+  {
+    icon: "project-polkadex.svg",
+    url: "https://polkadex.subsquare.io/",
+  },
+  {
+    icon: "project-turing.svg",
+    url: "https://turing.subsquare.io/",
+  },
 ];
 
 export const FEATURE_TABS = [
