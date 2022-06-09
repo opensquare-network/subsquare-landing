@@ -1,10 +1,10 @@
 export const OPTIONS = [
-  // {
-  //   value: "polkadot",
-  //   text: "Polkadot",
-  //   icon: "polkadot.svg",
-  //   url: "https://polkadot.subsquare.io",
-  // },
+  {
+    value: "polkadot",
+    text: "Polkadot",
+    icon: "polkadot.svg",
+    url: "https://polkadot.subsquare.io",
+  },
   {
     value: "kusama",
     text: "Kusama",
@@ -74,6 +74,10 @@ export const OPTIONS = [
 ];
 
 export const PARTNERS = [
+  {
+    icon: "project-polkadot.svg",
+    url: "https://polkadot.subsquare.io/",
+  },
   {
     icon: "project-kusama.svg",
     url: "https://kusama.subsquare.io/",
@@ -157,6 +161,11 @@ export const ADVANTAGE_BOTTOM_CARDS = [
 ];
 
 export const EXPLORE_CARDS = [
+  {
+    title: "Polkadot",
+    img: "explore-img-polkadot.jpg",
+    url: "https://polkadot.subsquare.io/",
+  },
   {
     title: "Kusama",
     img: "explore-img-kusama.jpg",

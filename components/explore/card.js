@@ -26,7 +26,7 @@ const Wrapper = styled.div`
       opacity: 1;
     }
   }
-  transform: translateX(${(p) => p.offset * 367 * 10}px);
+  transform: translateX(${(p) => p.offset * 367 * p.total}px);
   @media screen and (max-width: 1200px) {
     transform: translateX(0);
   }
@@ -58,17 +58,17 @@ const TitleWrapper = styled.div`
   line-height: 100%;
 `;
 
-export default function Card({ data, currentIndex, index }) {
-  const offset = Math.floor((currentIndex - index + 8) / 10);
+export default function Card({ data, currentIndex, index, total }) {
+  const offset = Math.floor((currentIndex - index + (total - 2)) / total);
   return (
     <ExternalLink href={data.url}>
-      <Wrapper currentIndex={currentIndex} offset={offset}>
+      <Wrapper currentIndex={currentIndex} offset={offset} total={total}>
         <ImgWrapper>
-          <img src={`/imgs/${data.img}`} alt="" />
+          <img src={`/imgs/${data.img}`} alt=""/>
         </ImgWrapper>
         <TitleWrapper>
           <div>{data.title}</div>
-          <img className="arrow" src="/imgs/icons/arrow-right.svg" alt="" />
+          <img className="arrow" src="/imgs/icons/arrow-right.svg" alt=""/>
         </TitleWrapper>
       </Wrapper>
     </ExternalLink>

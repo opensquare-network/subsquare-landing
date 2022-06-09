@@ -88,6 +88,9 @@ const ArrowButton = styled.div`
   @media screen and (max-width: 1200px) {
     display: none;
   }
+  img ::selection{
+    background: transparent;
+  }
 `;
 
 const LeftArrowButton = styled(ArrowButton)`
@@ -142,6 +145,7 @@ export default function Advantage() {
                   data={item}
                   currentIndex={currentIndex}
                   index={index}
+                  total={EXPLORE_CARDS.length}
                 />
               ))}
             </CardWrapper>
