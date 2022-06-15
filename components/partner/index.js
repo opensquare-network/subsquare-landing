@@ -31,7 +31,7 @@ const ProjectWrapper = styled.div`
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 980px;
+  max-width: 810px;
   margin-left: auto;
   margin-right: auto;
   gap: 24px 40px;

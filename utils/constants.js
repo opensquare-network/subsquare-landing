@@ -60,12 +60,6 @@ export const OPTIONS = [
     url: "https://crab.subsquare.io/",
   },
   {
-    value: "polkadex",
-    text: "Polkadex",
-    icon: "polkadex.svg",
-    url: "https://polkadex.subsquare.io/",
-  },
-  {
     value: "turing",
     text: "OAK Turing",
     icon: "turing.svg",
@@ -109,10 +103,6 @@ export const PARTNERS = [
   {
     icon: "project-crab.svg",
     url: "https://crab.subsquare.io/",
-  },
-  {
-    icon: "project-polkadex.svg",
-    url: "https://polkadex.subsquare.io/",
   },
   {
     icon: "project-turing.svg",
@@ -205,11 +195,6 @@ export const EXPLORE_CARDS = [
     title: "Crab Network",
     img: "explore-img-crab.jpg",
     url: "https://crab.subsquare.io/",
-  },
-  {
-    title: "Polkadex",
-    img: "explore-img-polkadex.jpg",
-    url: "https://polkadex.subsquare.io/",
   },
   {
     title: "Turing Network",
