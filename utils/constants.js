@@ -183,7 +183,7 @@ export const EXPLORE_CARDS = [
   },
   {
     title: "Kintsugi",
-    img: "explore-img-kintsugi.jpg",
+    img: "explore-img-kintsugi.png",
     url: "https://kintsugi.subsquare.io/",
   },
   {
