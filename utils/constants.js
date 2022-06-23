@@ -143,10 +143,12 @@ export const ADVANTAGE_BOTTOM_CARDS = [
   {
     icon: "advantage-chain.svg",
     title: "Interactive with Parachain",
+    img: "advantage-img-4.jpg",
   },
   {
     icon: "advantage-did.svg",
     title: "DID Login & Data Decentralization",
+    img: "advantage-img-5.jpg",
   },
 ];
 
