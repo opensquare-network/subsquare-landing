@@ -142,7 +142,7 @@ export const ADVANTAGE_TOP_CARDS = [
 export const ADVANTAGE_BOTTOM_CARDS = [
   {
     icon: "advantage-chain.svg",
-    title: "Interactive with Parachain",
+    title: "Chain Interaction Friendly",
     img: "advantage-img-4.jpg",
   },
   {
