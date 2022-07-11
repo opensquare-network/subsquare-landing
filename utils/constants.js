@@ -30,11 +30,17 @@ export const OPTIONS = [
     url: "https://khala.subsquare.io/",
   },
   {
-    value: "kabocha",
-    text: "Kabocha",
-    icon: "kabocha.svg",
-    url: "https://kabocha.subsquare.io/",
+    value: "phala",
+    text: "Phala",
+    icon: "phala.svg",
+    url: "https://phala.subsquare.io/",
   },
+  // {
+  //   value: "kabocha",
+  //   text: "Kabocha",
+  //   icon: "kabocha.svg",
+  //   url: "https://kabocha.subsquare.io/",
+  // },
   {
     value: "bifrost",
     text: "Bifrost",
@@ -81,16 +87,8 @@ export const PARTNERS = [
     url: "https://khala.subsquare.io/",
   },
   {
-    icon: "project-acala.svg",
-    url: "https://acala.subsquare.io/",
-  },
-  {
-    icon: "project-karura.svg",
-    url: "https://karura.subsquare.io/",
-  },
-  {
-    icon: "project-bifrost.svg",
-    url: "https://bifrost.subsquare.io/",
+    icon: "project-phala.svg",
+    url: "https://phala.subsquare.io/",
   },
   {
     icon: "project-kintsugi.svg",
@@ -99,6 +97,18 @@ export const PARTNERS = [
   {
     icon: "project-interlay.svg",
     url: "https://interlay.subsquare.io/",
+  },
+  {
+    icon: "project-bifrost.svg",
+    url: "https://bifrost.subsquare.io/",
+  },
+  {
+    icon: "project-acala.svg",
+    url: "https://acala.subsquare.io/",
+  },
+  {
+    icon: "project-karura.svg",
+    url: "https://karura.subsquare.io/",
   },
   {
     icon: "project-crab.svg",
@@ -169,6 +179,21 @@ export const EXPLORE_CARDS = [
     url: "https://khala.subsquare.io/",
   },
   {
+    title: "Phala",
+    img: "explore-img-phala.jpg",
+    url: "https://phala.subsquare.io/",
+  },
+  {
+    title: "Kintsugi",
+    img: "explore-img-kintsugi.png",
+    url: "https://kintsugi.subsquare.io/",
+  },
+  {
+    title: "Interlay",
+    img: "explore-img-interlay.jpg",
+    url: "https://interlay.subsquare.io/",
+  },
+  {
     title: "Acala",
     img: "explore-img-acala.jpg",
     url: "https://acala.subsquare.io/",
@@ -182,16 +207,6 @@ export const EXPLORE_CARDS = [
     title: "Bifrost",
     img: "explore-img-bifrost.jpg",
     url: "https://bifrost.subsquare.io/",
-  },
-  {
-    title: "Kintsugi",
-    img: "explore-img-kintsugi.png",
-    url: "https://kintsugi.subsquare.io/",
-  },
-  {
-    title: "Interlay",
-    img: "explore-img-interlay.jpg",
-    url: "https://interlay.subsquare.io/",
   },
   {
     title: "Crab Network",
