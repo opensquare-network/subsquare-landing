@@ -61,9 +61,15 @@ export const OPTIONS = [
   },
   {
     value: "crab",
-    text: "Crab Network",
+    text: "Crab",
     icon: "crab.svg",
     url: "https://crab.subsquare.io/",
+  },
+  {
+    value: "crust",
+    text: "Crust",
+    icon: "crust.svg",
+    url: "https://crust.subsquare.io/",
   },
   {
     value: "turing",
@@ -113,6 +119,10 @@ export const PARTNERS = [
   {
     icon: "project-crab.svg",
     url: "https://crab.subsquare.io/",
+  },
+  {
+    icon: "project-crust.svg",
+    url: "https://crust.subsquare.io/",
   },
   {
     icon: "project-turing.svg",
@@ -212,6 +222,11 @@ export const EXPLORE_CARDS = [
     title: "Crab Network",
     img: "explore-img-crab.jpg",
     url: "https://crab.subsquare.io/",
+  },
+  {
+    title: "Crust Network",
+    img: "explore-img-crust.jpeg",
+    url: "https://crust.subsquare.io/",
   },
   {
     title: "Turing Network",
