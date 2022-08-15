@@ -77,6 +77,12 @@ export const OPTIONS = [
     icon: "turing.svg",
     url: "https://turing.subsquare.io/",
   },
+  {
+    value: "litmus",
+    text: "Litmus",
+    icon: "litmus.svg",
+    url: "https://litmus.subsquare.io/",
+  },
 ];
 
 export const PARTNERS = [
@@ -127,6 +133,10 @@ export const PARTNERS = [
   {
     icon: "project-turing.svg",
     url: "https://turing.subsquare.io/",
+  },
+  {
+    icon: "project-litmus.svg",
+    url: "https://litmus.subsquare.io/",
   },
 ];
 
@@ -232,6 +242,11 @@ export const EXPLORE_CARDS = [
     title: "Turing Network",
     img: "explore-img-turing.jpg",
     url: "https://turing.subsquare.io/",
+  },
+  {
+    title: "Litmus Network",
+    img: "explore-img-litmus.jpg",
+    url: "https://litmus.subsquare.io/",
   },
 ];
 
