@@ -60,8 +60,6 @@ export default function Home() {
           <title>SubSquare - Empower the governance of substrate.</title>
           <meta name="thumbnail" content="https://ipfs.fleek.co/ipfs/bafybeie7dlklmnv5uioexc5erpli3kowir65chm66khtjkw2h46cil7w7q" />
           <link rel="icon" href="/favicon.ico" />
-          {/* eslint-disable-next-line @next/next/no-sync-scripts */}
-          <script type="text/javascript" src="/scripts/takw.js"/>
         </Head>
 
         <Header />
