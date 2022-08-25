@@ -86,7 +86,7 @@ export const OPTIONS = [
   {
     value: "Zeitgeist",
     text: "Zeitgeist",
-    icon: "Zeitgeist.svg",
+    icon: "zeitgeist.svg",
     url: "https://Zeitgeist.subsquare.io/",
   },
   {
@@ -157,7 +157,7 @@ export const PARTNERS = [
     url: "https://litmus.subsquare.io/",
   },
   {
-    icon: "project-Zeitgeist.svg",
+    icon: "project-zeitgeist.svg",
     url: "https://Zeitgeist.subsquare.io/",
   },
   {
