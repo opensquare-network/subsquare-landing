@@ -89,18 +89,18 @@ export const OPTIONS = [
     icon: "zeitgeist.svg",
     url: "https://Zeitgeist.subsquare.io/",
   },
-  {
-    value: "centrifuge",
-    text: "Centrifuge",
-    icon: "centrifuge.svg",
-    url: "https://centrifuge.subsquare.io/",
-  },
-  {
-    value: "altair",
-    text: "Altair",
-    icon: "altair.svg",
-    url: "https://altair.subsquare.io/",
-  },
+  // {
+  //   value: "centrifuge",
+  //   text: "Centrifuge",
+  //   icon: "centrifuge.svg",
+  //   url: "https://centrifuge.subsquare.io/",
+  // },
+  // {
+  //   value: "altair",
+  //   text: "Altair",
+  //   icon: "altair.svg",
+  //   url: "https://altair.subsquare.io/",
+  // },
 ];
 
 export const PARTNERS = [
@@ -160,14 +160,14 @@ export const PARTNERS = [
     icon: "project-zeitgeist.svg",
     url: "https://Zeitgeist.subsquare.io/",
   },
-  {
-    icon: "project-centrifuge.svg",
-    url: "https://centrifuge.subsquare.io/",
-  },
-  {
-    icon: "project-altair.svg",
-    url: "https://altair.subsquare.io/",
-  },
+  // {
+  //   icon: "project-centrifuge.svg",
+  //   url: "https://centrifuge.subsquare.io/",
+  // },
+  // {
+  //   icon: "project-altair.svg",
+  //   url: "https://altair.subsquare.io/",
+  // },
 ];
 
 export const FEATURE_TABS = [
