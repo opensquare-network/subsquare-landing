@@ -83,6 +83,24 @@ export const OPTIONS = [
     icon: "litmus.svg",
     url: "https://litmus.subsquare.io/",
   },
+  {
+    value: "Zeitgeist",
+    text: "Zeitgeist",
+    icon: "Zeitgeist.svg",
+    url: "https://Zeitgeist.subsquare.io/",
+  },
+  {
+    value: "centrifuge",
+    text: "Centrifuge",
+    icon: "centrifuge.svg",
+    url: "https://centrifuge.subsquare.io/",
+  },
+  {
+    value: "altair",
+    text: "Altair",
+    icon: "altair.svg",
+    url: "https://altair.subsquare.io/",
+  },
 ];
 
 export const PARTNERS = [
@@ -127,16 +145,28 @@ export const PARTNERS = [
     url: "https://crab.subsquare.io/",
   },
   {
-    icon: "project-crust.svg",
-    url: "https://crust.subsquare.io/",
-  },
-  {
     icon: "project-turing.svg",
     url: "https://turing.subsquare.io/",
   },
   {
+    icon: "project-crust.svg",
+    url: "https://crust.subsquare.io/",
+  },
+  {
     icon: "project-litmus.svg",
     url: "https://litmus.subsquare.io/",
+  },
+  {
+    icon: "project-Zeitgeist.svg",
+    url: "https://Zeitgeist.subsquare.io/",
+  },
+  {
+    icon: "project-centrifuge.svg",
+    url: "https://centrifuge.subsquare.io/",
+  },
+  {
+    icon: "project-altair.svg",
+    url: "https://altair.subsquare.io/",
   },
 ];
 
@@ -234,19 +264,34 @@ export const EXPLORE_CARDS = [
     url: "https://crab.subsquare.io/",
   },
   {
-    title: "Crust Network",
-    img: "explore-img-crust.jpeg",
-    url: "https://crust.subsquare.io/",
-  },
-  {
     title: "Turing Network",
     img: "explore-img-turing.jpg",
     url: "https://turing.subsquare.io/",
   },
   {
+    title: "Crust Network",
+    img: "explore-img-crust.jpeg",
+    url: "https://crust.subsquare.io/",
+  },
+  {
     title: "Litmus Network",
     img: "explore-img-litmus.jpg",
     url: "https://litmus.subsquare.io/",
+  },
+  {
+    title: "Zeitgeist",
+    img: "explore-img-zeitgeist.jpg",
+    url: "https://zeitgeist.subsquare.io/",
+  },
+  {
+    title: "Centrifuge",
+    img: "explore-img-centrifuge.jpg",
+    url: "https://centrifuge.subsquare.io/",
+  },
+  {
+    title: "Altair",
+    img: "explore-img-altair.jpg",
+    url: "https://altair.subsquare.io/",
   },
 ];
 
