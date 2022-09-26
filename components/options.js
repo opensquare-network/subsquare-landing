@@ -1,63 +1,50 @@
 import styled from "styled-components";
 
-import ExternalLink from "./externalLink";
-import { OPTIONS } from "utils/constants";
+import OptionGroup from "./optionGroup";
+import MenuGroups from "utils/menuGroups";
 
 const Wrapper = styled.div`
+  position: absolute;
+  margin-top: 4px;
+  right: 0;
+
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  flex-direction: column;
+  width: 384px;
+  @media screen and (max-width: 768px) {
+    width: 100% !important;
+    min-width: 240px;
+    padding: 8px 0;
+  }
+
   background: #ffffff;
   border: 1px solid #ebeef4;
   box-shadow: 0px 6px 22px rgba(30, 33, 52, 0.11),
     0px 1.34018px 4.91399px rgba(30, 33, 52, 0.0655718),
     0px 0.399006px 1.46302px rgba(30, 33, 52, 0.0444282);
   border-radius: 4px;
-  padding: 8px 0;
 `;
 
-const Item = styled.div`
-  height: 36px;
-  padding: 0 12px;
-  display: flex;
-  align-items: center;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 100%;
-  color: #506176;
-  cursor: pointer;
-  > img {
-    width: 24px;
-    height: 24px;
-    margin-right: 8px;
-  }
-  :hover {
-    background: #f6f7fa;
-    color: #1e2134;
-  }
-`;
-
-export default function Options({ onClose, isLink, setSelected }) {
+export default function Options({ onClose, isLink }) {
   return (
     <Wrapper>
-      {(OPTIONS || []).map((item, index) =>
-        isLink ? (
-          <ExternalLink key={index} href={item.url}>
-            <Item onClick={onClose}>
-              <img src={`/imgs/icons/${item.icon}`} alt="" />
-              {item.text}
-            </Item>
-          </ExternalLink>
-        ) : (
-          <Item
-            key={index}
-            onClick={() => {
-              setSelected(item.value);
-              onClose();
-            }}
-          >
-            <img src={`/imgs/icons/${item.icon}`} alt="" />
-            {item.text}
-          </Item>
-        )
-      )}
+      <OptionGroup
+        groupName={MenuGroups.PolkadotAndParachains}
+        onClose={onClose}
+        isLink={isLink}
+      />
+      <OptionGroup
+        groupName={MenuGroups.KusamaAndParachains}
+        onClose={onClose}
+        isLink={isLink}
+      />
+      <OptionGroup
+        groupName={MenuGroups.Solochain}
+        onClose={onClose}
+        isLink={isLink}
+      />
     </Wrapper>
   );
 }
