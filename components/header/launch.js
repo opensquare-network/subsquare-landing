@@ -31,13 +31,6 @@ const Button = styled.button`
     `}
 `;
 
-const OptionsWrapper = styled.div`
-  width: 182px;
-  position: absolute;
-  margin-top: 4px;
-  right: 0;
-`;
-
 export default function Launch() {
   const [show, setShow] = useState(false);
   const ref = useRef();
@@ -57,9 +50,7 @@ export default function Launch() {
         Launch App
       </Button>
       {show && (
-        <OptionsWrapper>
-          <Options onClose={() => setShow(false)} isLink />
-        </OptionsWrapper>
+        <Options onClose={() => setShow(false)} isLink />
       )}
     </Wrapper>
   );
