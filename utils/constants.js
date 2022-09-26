@@ -107,7 +107,7 @@ export const OPTIONS = [
   },
   {
     value: "turing",
-    text: "OAK Turing",
+    text: "Turing",
     icon: "turing.svg",
     url: "https://turing.subsquare.io/",
     group: MenuGroups.KusamaAndParachains,
