@@ -68,7 +68,7 @@ export default function NetworkOptionGroup({ groupName, isLink, onClose }) {
         isLink ? (
           <ExternalLink key={index} href={item.url}>
             <Item onClick={onClose}>
-              <img src={`/imgs/icons/${item.icon}`} alt="" />
+              <img src={`/imgs/icons/${item.icon}`} alt="" width="24px" height="24px" />
               {item.text}
             </Item>
           </ExternalLink>
@@ -80,7 +80,7 @@ export default function NetworkOptionGroup({ groupName, isLink, onClose }) {
               onClose();
             }}
           >
-            <img src={`/imgs/icons/${item.icon}`} alt="" />
+            <img src={`/imgs/icons/${item.icon}`} alt="" width="24px" height="24px" />
             {item.text}
           </Item>
         ))}
