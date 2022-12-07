@@ -52,7 +52,7 @@ export const OPTIONS = [
   },
   {
     value: "hydradx",
-    text: "Hydradx",
+    text: "HydraDX",
     icon: "hydradx.svg",
     url: "https://hydradx.subsquare.io/",
     group: MenuGroups.PolkadotAndParachains,
@@ -346,7 +346,7 @@ export const EXPLORE_CARDS = [
     url: "https://altair.subsquare.io/",
   },
   {
-    title: "Hydradx",
+    title: "HydraDX",
     img: "explorer-img-hydradx.jpg",
     url: "https://altair.subsquare.io/",
   },
