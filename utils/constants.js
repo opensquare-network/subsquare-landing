@@ -30,6 +30,13 @@ export const OPTIONS = [
     group: MenuGroups.KusamaAndParachains,
   },
   {
+    value: "basilisk",
+    text: "Basilisk",
+    icon: "basilisk.svg",
+    url: "https://basilisk.subsquare.io/",
+    group: MenuGroups.KusamaAndParachains,
+  },
+  {
     value: "bifrost",
     text: "Bifrost",
     icon: "bifrost.svg",
@@ -41,6 +48,13 @@ export const OPTIONS = [
     text: "Centrifuge",
     icon: "centrifuge.svg",
     url: "https://centrifuge.subsquare.io/",
+    group: MenuGroups.PolkadotAndParachains,
+  },
+  {
+    value: "hydradx",
+    text: "Hydradx",
+    icon: "hydradx.svg",
+    url: "https://hydradx.subsquare.io/",
     group: MenuGroups.PolkadotAndParachains,
   },
   {
@@ -119,6 +133,13 @@ export const OPTIONS = [
     url: "https://Zeitgeist.subsquare.io/",
     group: MenuGroups.KusamaAndParachains,
   },
+  {
+    value: "rococo",
+    text: "Rococo",
+    icon: "rococo.svg",
+    url: "https://rococo.subsquare.io/",
+    group: MenuGroups.Solochain,
+  },
 ];
 
 export const PARTNERS = [
@@ -185,6 +206,14 @@ export const PARTNERS = [
   {
     icon: "project-altair.svg",
     url: "https://altair.subsquare.io/",
+  },
+  {
+    icon: "project-basilisk.svg",
+    url: "https://basilisk.subsquare.io/",
+  },
+  {
+    icon: "project-hydradx.svg",
+    url: "https://hydradx.subsquare.io/",
   },
 ];
 
@@ -309,6 +338,16 @@ export const EXPLORE_CARDS = [
   {
     title: "Altair",
     img: "explore-img-altair.jpg",
+    url: "https://altair.subsquare.io/",
+  },
+  {
+    title: "Basilisk",
+    img: "explorer-img-basilisk.jpg",
+    url: "https://altair.subsquare.io/",
+  },
+  {
+    title: "Hydradx",
+    img: "explorer-img-hydradx.jpg",
     url: "https://altair.subsquare.io/",
   },
 ];
