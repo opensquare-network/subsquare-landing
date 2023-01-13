@@ -27,23 +27,26 @@ const Wrapper = styled.div`
   border-radius: 4px;
 `;
 
-export default function Options({ onClose, isLink }) {
+export default function Options({ onClose, isLink, setSelected }) {
   return (
     <Wrapper>
       <OptionGroup
         groupName={MenuGroups.PolkadotAndParachains}
         onClose={onClose}
         isLink={isLink}
+        setSelected={setSelected}
       />
       <OptionGroup
         groupName={MenuGroups.KusamaAndParachains}
         onClose={onClose}
         isLink={isLink}
+        setSelected={setSelected}
       />
       <OptionGroup
         groupName={MenuGroups.Solochain}
         onClose={onClose}
         isLink={isLink}
+        setSelected={setSelected}
       />
     </Wrapper>
   );
