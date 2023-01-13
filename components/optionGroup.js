@@ -58,32 +58,33 @@ const Item = styled.a`
   }
 `;
 
-export default function NetworkOptionGroup({ groupName, isLink, onClose }) {
+export default function NetworkOptionGroup({ groupName, isLink, onClose, setSelected }) {
   const filteredNodes = OPTIONS.filter(({ group }) => group === groupName);
   return (
     <Wrapper>
       <GroupName>{groupName}</GroupName>
       <GroupOptions>
-        {filteredNodes.map((item, index) =>
-        isLink ? (
-          <ExternalLink key={index} href={item.url}>
-            <Item onClick={onClose}>
+        {filteredNodes.map((item, index) => (
+          isLink ? (
+            <ExternalLink key={index} href={item.url}>
+              <Item onClick={onClose}>
+                <img src={`/imgs/icons/${item.icon}`} alt="" width="24px" height="24px" />
+                {item.text}
+              </Item>
+            </ExternalLink>
+          ) : (
+            <Item
+              key={index}
+              onClick={() => {
+                setSelected(item.value);
+                onClose();
+              }}
+            >
               <img src={`/imgs/icons/${item.icon}`} alt="" width="24px" height="24px" />
               {item.text}
             </Item>
-          </ExternalLink>
-        ) : (
-          <Item
-            key={index}
-            onClick={() => {
-              setSelected(item.value);
-              onClose();
-            }}
-          >
-            <img src={`/imgs/icons/${item.icon}`} alt="" width="24px" height="24px" />
-            {item.text}
-          </Item>
-        ))}
+          ))
+        )}
       </GroupOptions>
     </Wrapper>
   )
