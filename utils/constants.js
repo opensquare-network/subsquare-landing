@@ -85,6 +85,13 @@ export const OPTIONS = [
     url: "https://interlay.subsquare.io/",
     group: MenuGroups.PolkadotAndParachains,
   },
+  {
+    value: "litentry",
+    text: "Litentry",
+    icon: "litentry.svg",
+    url: "https://litentry.subsquare.io/",
+    group: MenuGroups.PolkadotAndParachains,
+  },
   // {
   //   value: "kabocha",
   //   text: "Kabocha",
@@ -190,6 +197,10 @@ export const PARTNERS = [
   {
     icon: "project-crust.svg",
     url: "https://crust.subsquare.io/",
+  },
+  {
+    icon: "project-litentry.svg",
+    url: "https://litentry.subsquare.io/",
   },
   {
     icon: "project-litmus.svg",
@@ -319,6 +330,11 @@ export const EXPLORE_CARDS = [
     title: "Crust Network",
     img: "explore-img-crust.jpeg",
     url: "https://crust.subsquare.io/",
+  },
+  {
+    title: "Litentry Network",
+    img: "explore-img-litentry.jpg",
+    url: "https://litentry.subsquare.io/",
   },
   {
     title: "Litmus Network",
