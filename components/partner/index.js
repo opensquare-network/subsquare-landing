@@ -31,10 +31,10 @@ const ProjectWrapper = styled.div`
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 1000px;
+  max-width: 1102px;
   margin-left: auto;
   margin-right: auto;
-  gap: 24px 40px;
+  gap: 16px 32px;
   > * {
     opacity: 0.4;
     :hover {
