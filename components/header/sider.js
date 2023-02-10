@@ -101,7 +101,14 @@ const Select = styled.div`
 const OptionsWrapper = styled.div`
   position: absolute;
   margin-top: 4px;
+  min-width: 260px;
   width: 100%;
+  right: 0px;
+  @media screen and (max-width: 768px) {
+    height: 480px;
+    overflow: hidden;
+    overflow-y: auto;
+  }
 `;
 
 const LinkButton = styled.div`
