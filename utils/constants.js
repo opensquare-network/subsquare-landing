@@ -51,6 +51,13 @@ export const OPTIONS = [
     group: MenuGroups.PolkadotAndParachains,
   },
   {
+    value: "collectives",
+    text: "Collectives",
+    icon: "collectives.svg",
+    url: "https://collectives.subsquare.io/",
+    group: MenuGroups.PolkadotAndParachains,
+  },
+  {
     value: "hydradx",
     text: "HydraDX",
     icon: "hydradx.svg",
@@ -147,6 +154,14 @@ export const OPTIONS = [
     url: "https://rococo.subsquare.io/",
     group: MenuGroups.Solochain,
   },
+  {
+    value: "westend-collectives",
+    text: "Collectives",
+    icon: "westend-collectives.svg",
+    url: "https://westend-collectives.subsquare.io/",
+    group: MenuGroups.Solochain,
+  },
+
 ];
 
 export const PARTNERS = [
