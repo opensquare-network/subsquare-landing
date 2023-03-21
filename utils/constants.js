@@ -138,7 +138,7 @@ export const OPTIONS = [
     text: "Zeitgeist",
     icon: "zeitgeist.svg",
     url: "https://Zeitgeist.subsquare.io/",
-    group: MenuGroups.KusamaAndParachains,
+    group: MenuGroups.PolkadotAndParachains,
   },
   {
     value: "rococo",
