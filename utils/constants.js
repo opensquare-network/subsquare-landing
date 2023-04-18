@@ -65,13 +65,6 @@ export const OPTIONS = [
     group: MenuGroups.PolkadotAndParachains,
   },
   {
-    value: "crab",
-    text: "Crab",
-    icon: "crab.svg",
-    url: "https://crab.subsquare.io/",
-    group: MenuGroups.Solochain,
-  },
-  {
     value: "crust",
     text: "Crust",
     icon: "crust.svg",
@@ -202,10 +195,6 @@ export const PARTNERS = [
     url: "https://karura.subsquare.io/",
   },
   {
-    icon: "project-crab.svg",
-    url: "https://crab.subsquare.io/",
-  },
-  {
     icon: "project-turing.svg",
     url: "https://turing.subsquare.io/",
   },
@@ -330,11 +319,6 @@ export const EXPLORE_CARDS = [
     title: "Bifrost",
     img: "explore-img-bifrost.jpg",
     url: "https://bifrost.subsquare.io/",
-  },
-  {
-    title: "Crab Network",
-    img: "explore-img-crab.jpg",
-    url: "https://crab.subsquare.io/",
   },
   {
     title: "Turing Network",
