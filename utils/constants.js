@@ -37,10 +37,10 @@ export const OPTIONS = [
     group: MenuGroups.KusamaAndParachains,
   },
   {
-    value: "bifrost",
-    text: "Bifrost",
+    value: "bifrost-kusama",
+    text: "Bifrost Kusama",
     icon: "bifrost.svg",
-    url: "https://bifrost.subsquare.io/",
+    url: "https://bifrost-kusama.subsquare.io/",
     group: MenuGroups.KusamaAndParachains,
   },
   {
@@ -55,6 +55,13 @@ export const OPTIONS = [
     text: "Collectives",
     icon: "collectives.svg",
     url: "https://collectives.subsquare.io/",
+    group: MenuGroups.PolkadotAndParachains,
+  },
+  {
+    value: "darwinia2",
+    text: "Darwinia2",
+    icon: "darwinia2.svg",
+    url: "https://darwinia2.subsquare.io/",
     group: MenuGroups.PolkadotAndParachains,
   },
   {
@@ -230,6 +237,10 @@ export const PARTNERS = [
     icon: "project-hydradx.svg",
     url: "https://hydradx.subsquare.io/",
   },
+  {
+    icon: "project-darwinia2.svg",
+    url: "https://darwinia2.subsquare.io/",
+  },
 ];
 
 export const FEATURE_TABS = [
@@ -316,9 +327,9 @@ export const EXPLORE_CARDS = [
     url: "https://karura.subsquare.io/",
   },
   {
-    title: "Bifrost",
-    img: "explore-img-bifrost.jpg",
-    url: "https://bifrost.subsquare.io/",
+    title: "Bifrost Kusama",
+    img: "explorer-img-bifrost-kusama.png",
+    url: "https://bifrost-kusama.subsquare.io/",
   },
   {
     title: "Turing Network",
@@ -364,6 +375,11 @@ export const EXPLORE_CARDS = [
     title: "HydraDX",
     img: "explorer-img-hydradx.jpg",
     url: "https://altair.subsquare.io/",
+  },
+  {
+    title: "Darwinia",
+    img: "explorer-img-darwinia2.png",
+    url: "https://darwinia2.subsquare.io/",
   },
 ];
 
