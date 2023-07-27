@@ -4,7 +4,6 @@ import Button from "components/button";
 
 const Wrapper = styled.div`
   background-image: url("/imgs/overview-bg.svg");
-  background-position: ;
   background-position: bottom;
   padding: 80px 16px 0;
 `;
