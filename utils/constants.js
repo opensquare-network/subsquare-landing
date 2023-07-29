@@ -26,7 +26,7 @@ export const OPTIONS = [
     value: "bifrost-polkadot",
     text: "Bifrost Polkadot",
     icon: "bifrost.svg",
-    url: "https://bifrost-polkadot.subsquare.io/",
+    url: "https://bifrost.subsquare.io/",
     group: MenuGroups.PolkadotAndParachains,
   },
   {
