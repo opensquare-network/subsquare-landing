@@ -43,9 +43,10 @@ export default function Home() {
       ],
     },
     twitter: {
-      handle: '@handle',
-      site: '@site',
+      handle: '@OpensquareN',
+      site: '@OpensquareN',
       cardType: 'summary_large_image',
+      image: 'https://cloudflare-ipfs.com/ipfs/bafybeigdvohyozmu76ttwoae6rfx4rkvspspj3xqfv7ogz2ncmj4ub2y7y',
     }
   }
 
