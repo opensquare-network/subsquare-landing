@@ -79,13 +79,6 @@ export const OPTIONS = [
     group: MenuGroups.PolkadotAndParachains,
   },
   {
-    value: "crust",
-    text: "Crust",
-    icon: "crust.svg",
-    url: "https://crust.subsquare.io/",
-    group: MenuGroups.Solochain,
-  },
-  {
     value: "litmus",
     text: "Litmus",
     icon: "litmus.svg",
@@ -155,6 +148,20 @@ export const OPTIONS = [
     group: MenuGroups.PolkadotAndParachains,
   },
   {
+    value: "westend-collectives",
+    text: "Collectives",
+    icon: "westend-collectives.svg",
+    url: "https://westend-collectives.subsquare.io/",
+    group: MenuGroups.Solochain,
+  },
+  {
+    value: "crust",
+    text: "Crust",
+    icon: "crust.svg",
+    url: "https://crust.subsquare.io/",
+    group: MenuGroups.Solochain,
+  },
+  {
     value: "rococo",
     text: "Rococo",
     icon: "rococo.svg",
@@ -162,13 +169,12 @@ export const OPTIONS = [
     group: MenuGroups.Solochain,
   },
   {
-    value: "westend-collectives",
-    text: "Collectives",
-    icon: "westend-collectives.svg",
-    url: "https://westend-collectives.subsquare.io/",
+    value: "vara",
+    text: "Vara",
+    icon: "vara.svg",
+    url: "https://vara.subsquare.io/",
     group: MenuGroups.Solochain,
   },
-
 ];
 
 export const PARTNERS = [
@@ -247,6 +253,10 @@ export const PARTNERS = [
   {
     icon: "project-darwinia2.svg",
     url: "https://darwinia2.subsquare.io/",
+  },
+  {
+    icon: "project-vara.svg",
+    url: "https://vara.subsquare.io/",
   },
 ];
 
@@ -387,6 +397,11 @@ export const EXPLORE_CARDS = [
     title: "Darwinia",
     img: "explorer-img-darwinia2.png",
     url: "https://darwinia2.subsquare.io/",
+  },
+  {
+    title: "Vara",
+    img: "explorer-img-vara.jpg",
+    url: "https://vara.subsquare.io/",
   },
 ];
 
