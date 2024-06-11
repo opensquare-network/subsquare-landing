@@ -72,10 +72,10 @@ export const OPTIONS = [
     group: MenuGroups.PolkadotAndParachains,
   },
   {
-    value: "hydradx",
-    text: "HydraDX",
-    icon: "hydradx.svg",
-    url: "https://hydradx.subsquare.io/",
+    value: "hydration",
+    text: "Hydration",
+    icon: "hydration.svg",
+    url: "https://hydration.subsquare.io/",
     group: MenuGroups.PolkadotAndParachains,
   },
   {
@@ -247,8 +247,8 @@ export const PARTNERS = [
     url: "https://basilisk.subsquare.io/",
   },
   {
-    icon: "project-hydradx.svg",
-    url: "https://hydradx.subsquare.io/",
+    icon: "project-hydration.svg",
+    url: "https://hydration.subsquare.io/",
   },
   {
     icon: "project-darwinia2.svg",
@@ -386,12 +386,12 @@ export const EXPLORE_CARDS = [
   {
     title: "Basilisk",
     img: "explorer-img-basilisk.jpg",
-    url: "https://altair.subsquare.io/",
+    url: "https://basilisk.subsquare.io/",
   },
   {
-    title: "HydraDX",
-    img: "explorer-img-hydradx.jpg",
-    url: "https://altair.subsquare.io/",
+    title: "Hydration",
+    img: "explore-img-hydration.jpg",
+    url: "https://hydration.subsquare.io/",
   },
   {
     title: "Darwinia",
