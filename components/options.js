@@ -43,6 +43,12 @@ export default function Options({ onClose, isLink, setSelected }) {
         setSelected={setSelected}
       />
       <OptionGroup
+        groupName={MenuGroups.WestendAndParachains}
+        onClose={onClose}
+        isLink={isLink}
+        setSelected={setSelected}
+      />
+      <OptionGroup
         groupName={MenuGroups.Solochain}
         onClose={onClose}
         isLink={isLink}

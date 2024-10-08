@@ -154,6 +154,20 @@ export const OPTIONS = [
     url: "https://vara.subsquare.io/",
     group: MenuGroups.Solochain,
   },
+  {
+    value: "westend",
+    text: "Westend",
+    icon: "westend.svg",
+    url: "https://westend.subsquare.io/",
+    group: MenuGroups.WestendAndParachains,
+  },
+  {
+    value: "westend-assethub",
+    text: "Asset Hub",
+    icon: "westend-assethub.svg",
+    url: "https://westend-assethub.subsquare.io/",
+    group: MenuGroups.WestendAndParachains,
+  },
 ];
 
 export const PARTNERS = [
