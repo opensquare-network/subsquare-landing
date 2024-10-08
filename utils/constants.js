@@ -311,6 +311,16 @@ export const EXPLORE_CARDS = [
     url: "https://kusama.subsquare.io/",
   },
   {
+    title: "Polkadot Asset Hub",
+    img: "explore-img-polkadot-asset-hub.jpg",
+    url: "https://polkadot-assethub.subsquare.io/",
+  },
+  {
+    title: "Collectives",
+    img: "explore-img-collectives.jpg",
+    url: "https://collectives.subsquare.io/",
+  },
+  {
     title: "Khala",
     img: "explore-img-khala.jpg",
     url: "https://khala.subsquare.io/",
