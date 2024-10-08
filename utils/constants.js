@@ -9,10 +9,24 @@ export const OPTIONS = [
     group: MenuGroups.PolkadotAndParachains,
   },
   {
+    value: "polkadot-assethub",
+    text: "Asset Hub",
+    icon: "polkadot-assethub.svg",
+    url: "https://polkadot-assethub.subsquare.io",
+    group: MenuGroups.PolkadotAndParachains,
+  },
+  {
     value: "kusama",
     text: "Kusama",
     icon: "kusama.svg",
     url: "https://kusama.subsquare.io/",
+    group: MenuGroups.KusamaAndParachains,
+  },
+  {
+    value: "kusama-assethub",
+    text: "Asset Hub",
+    icon: "kusama-assethub.svg",
+    url: "https://kusama-assethub.subsquare.io/",
     group: MenuGroups.KusamaAndParachains,
   },
   {
@@ -62,13 +76,6 @@ export const OPTIONS = [
     text: "Collectives",
     icon: "collectives.svg",
     url: "https://collectives.subsquare.io/",
-    group: MenuGroups.PolkadotAndParachains,
-  },
-  {
-    value: "darwinia2",
-    text: "Darwinia2",
-    icon: "darwinia2.svg",
-    url: "https://darwinia2.subsquare.io/",
     group: MenuGroups.PolkadotAndParachains,
   },
   {
@@ -134,13 +141,6 @@ export const OPTIONS = [
     group: MenuGroups.PolkadotAndParachains,
   },
   {
-    value: "turing",
-    text: "Turing",
-    icon: "turing.svg",
-    url: "https://turing.subsquare.io/",
-    group: MenuGroups.KusamaAndParachains,
-  },
-  {
     value: "Zeitgeist",
     text: "Zeitgeist",
     icon: "zeitgeist.svg",
@@ -148,11 +148,18 @@ export const OPTIONS = [
     group: MenuGroups.PolkadotAndParachains,
   },
   {
-    value: "westend-collectives",
-    text: "Collectives",
-    icon: "westend-collectives.svg",
-    url: "https://westend-collectives.subsquare.io/",
-    group: MenuGroups.Solochain,
+    value: "westend",
+    text: "Westend",
+    icon: "westend.svg",
+    url: "https://westend.subsquare.io/",
+    group: MenuGroups.WestendAndParachains,
+  },
+  {
+    value: "westend-assethub",
+    text: "Asset Hub",
+    icon: "westend-assethub.svg",
+    url: "https://westend-assethub.subsquare.io/",
+    group: MenuGroups.WestendAndParachains,
   },
   {
     value: "crust",
@@ -169,10 +176,24 @@ export const OPTIONS = [
     group: MenuGroups.Solochain,
   },
   {
+    value: "shibuya",
+    text: "Shibuya",
+    icon: "shibuya.svg",
+    url: "https://shibuya.subsquare.io/",
+    group: MenuGroups.Solochain,
+  },
+  {
     value: "vara",
     text: "Vara",
     icon: "vara.svg",
     url: "https://vara.subsquare.io/",
+    group: MenuGroups.Solochain,
+  },
+  {
+    value: "zkverify",
+    text: "ZKVerify",
+    icon: "zkverify.svg",
+    url: "https://zkverify-testnet.subsquare.io/",
     group: MenuGroups.Solochain,
   },
 ];
@@ -185,6 +206,10 @@ export const PARTNERS = [
   {
     icon: "project-kusama.svg",
     url: "https://kusama.subsquare.io/",
+  },
+  {
+    icon: "project-assethub.png",
+    url: "https://polkadot-assethub.subsquare.io/",
   },
   {
     icon: "project-khala.svg",
@@ -213,10 +238,6 @@ export const PARTNERS = [
   {
     icon: "project-karura.svg",
     url: "https://karura.subsquare.io/",
-  },
-  {
-    icon: "project-turing.svg",
-    url: "https://turing.subsquare.io/",
   },
   {
     icon: "project-crust.svg",
@@ -251,12 +272,16 @@ export const PARTNERS = [
     url: "https://hydration.subsquare.io/",
   },
   {
-    icon: "project-darwinia2.svg",
-    url: "https://darwinia2.subsquare.io/",
-  },
-  {
     icon: "project-vara.svg",
     url: "https://vara.subsquare.io/",
+  },
+  {
+    icon: "project-zkverify.png",
+    url: "https://zkverify-testnet.subsquare.io/",
+  },
+  {
+    icon: "project-shibuya.png",
+    url: "https://shibuya.subsquare.io/",
   },
 ];
 
@@ -314,6 +339,16 @@ export const EXPLORE_CARDS = [
     url: "https://kusama.subsquare.io/",
   },
   {
+    title: "Polkadot Asset Hub",
+    img: "explore-img-polkadot-asset-hub.jpg",
+    url: "https://polkadot-assethub.subsquare.io/",
+  },
+  {
+    title: "Collectives",
+    img: "explore-img-collectives.jpg",
+    url: "https://collectives.subsquare.io/",
+  },
+  {
     title: "Khala",
     img: "explore-img-khala.jpg",
     url: "https://khala.subsquare.io/",
@@ -347,11 +382,6 @@ export const EXPLORE_CARDS = [
     title: "Bifrost Kusama",
     img: "explorer-img-bifrost-kusama.png",
     url: "https://bifrost-kusama.subsquare.io/",
-  },
-  {
-    title: "Turing Network",
-    img: "explore-img-turing.jpg",
-    url: "https://turing.subsquare.io/",
   },
   {
     title: "Crust Network",
@@ -392,11 +422,6 @@ export const EXPLORE_CARDS = [
     title: "Hydration",
     img: "explore-img-hydration.jpg",
     url: "https://hydration.subsquare.io/",
-  },
-  {
-    title: "Darwinia",
-    img: "explorer-img-darwinia2.png",
-    url: "https://darwinia2.subsquare.io/",
   },
   {
     title: "Vara",
