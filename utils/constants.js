@@ -349,11 +349,6 @@ export const EXPLORE_CARDS = [
     url: "https://bifrost-kusama.subsquare.io/",
   },
   {
-    title: "Turing Network",
-    img: "explore-img-turing.jpg",
-    url: "https://turing.subsquare.io/",
-  },
-  {
     title: "Crust Network",
     img: "explore-img-crust.jpeg",
     url: "https://crust.subsquare.io/",
@@ -392,11 +387,6 @@ export const EXPLORE_CARDS = [
     title: "Hydration",
     img: "explore-img-hydration.jpg",
     url: "https://hydration.subsquare.io/",
-  },
-  {
-    title: "Darwinia",
-    img: "explorer-img-darwinia2.png",
-    url: "https://darwinia2.subsquare.io/",
   },
   {
     title: "Vara",
