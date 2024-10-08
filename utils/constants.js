@@ -166,6 +166,10 @@ export const PARTNERS = [
     url: "https://kusama.subsquare.io/",
   },
   {
+    icon: "project-assethub.png",
+    url: "https://polkadot-assethub.subsquare.io/",
+  },
+  {
     icon: "project-khala.svg",
     url: "https://khala.subsquare.io/",
   },
@@ -192,10 +196,6 @@ export const PARTNERS = [
   {
     icon: "project-karura.svg",
     url: "https://karura.subsquare.io/",
-  },
-  {
-    icon: "project-turing.svg",
-    url: "https://turing.subsquare.io/",
   },
   {
     icon: "project-crust.svg",
@@ -230,12 +230,16 @@ export const PARTNERS = [
     url: "https://hydration.subsquare.io/",
   },
   {
-    icon: "project-darwinia2.svg",
-    url: "https://darwinia2.subsquare.io/",
-  },
-  {
     icon: "project-vara.svg",
     url: "https://vara.subsquare.io/",
+  },
+  {
+    icon: "project-zkverify.png",
+    url: "https://zkverify-testnet.subsquare.io/",
+  },
+  {
+    icon: "project-shibuya.png",
+    url: "https://shibuya.subsquare.io/",
   },
 ];
 
