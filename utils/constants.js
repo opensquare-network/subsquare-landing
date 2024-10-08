@@ -65,13 +65,6 @@ export const OPTIONS = [
     group: MenuGroups.PolkadotAndParachains,
   },
   {
-    value: "darwinia2",
-    text: "Darwinia2",
-    icon: "darwinia2.svg",
-    url: "https://darwinia2.subsquare.io/",
-    group: MenuGroups.PolkadotAndParachains,
-  },
-  {
     value: "hydration",
     text: "Hydration",
     icon: "hydration.svg",
@@ -134,25 +127,11 @@ export const OPTIONS = [
     group: MenuGroups.PolkadotAndParachains,
   },
   {
-    value: "turing",
-    text: "Turing",
-    icon: "turing.svg",
-    url: "https://turing.subsquare.io/",
-    group: MenuGroups.KusamaAndParachains,
-  },
-  {
     value: "Zeitgeist",
     text: "Zeitgeist",
     icon: "zeitgeist.svg",
     url: "https://Zeitgeist.subsquare.io/",
     group: MenuGroups.PolkadotAndParachains,
-  },
-  {
-    value: "westend-collectives",
-    text: "Collectives",
-    icon: "westend-collectives.svg",
-    url: "https://westend-collectives.subsquare.io/",
-    group: MenuGroups.Solochain,
   },
   {
     value: "crust",
