@@ -9,10 +9,24 @@ export const OPTIONS = [
     group: MenuGroups.PolkadotAndParachains,
   },
   {
+    value: "polkadot-assethub",
+    text: "Asset Hub",
+    icon: "polkadot-assethub.svg",
+    url: "https://polkadot-assethub.subsquare.io",
+    group: MenuGroups.PolkadotAndParachains,
+  },
+  {
     value: "kusama",
     text: "Kusama",
     icon: "kusama.svg",
     url: "https://kusama.subsquare.io/",
+    group: MenuGroups.KusamaAndParachains,
+  },
+  {
+    value: "kusama-assethub",
+    text: "Asset Hub",
+    icon: "kusama-assethub.svg",
+    url: "https://kusama-assethub.subsquare.io/",
     group: MenuGroups.KusamaAndParachains,
   },
   {
@@ -167,6 +181,20 @@ export const OPTIONS = [
     icon: "westend-assethub.svg",
     url: "https://westend-assethub.subsquare.io/",
     group: MenuGroups.WestendAndParachains,
+  },
+  {
+    value: "shibuya",
+    text: "Shibuya",
+    icon: "shibuya.svg",
+    url: "https://shibuya.subsquare.io/",
+    group: MenuGroups.Solochain,
+  },
+  {
+    value: "zkverify",
+    text: "ZKVerify",
+    icon: "zkverify.svg",
+    url: "https://zkverify-testnet.subsquare.io/",
+    group: MenuGroups.Solochain,
   },
 ];
 
