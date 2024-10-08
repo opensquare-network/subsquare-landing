@@ -191,7 +191,7 @@ export const OPTIONS = [
   },
   {
     value: "zkverify",
-    text: "ZKVerify",
+    text: "ZKVerify Testnet",
     icon: "zkverify.svg",
     url: "https://zkverify-testnet.subsquare.io/",
     group: MenuGroups.Solochain,
