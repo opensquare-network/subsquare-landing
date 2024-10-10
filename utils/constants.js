@@ -86,13 +86,6 @@ export const OPTIONS = [
     group: MenuGroups.PolkadotAndParachains,
   },
   {
-    value: "litmus",
-    text: "Litmus",
-    icon: "litmus.svg",
-    url: "https://litmus.subsquare.io/",
-    group: MenuGroups.KusamaAndParachains,
-  },
-  {
     value: "interlay",
     text: "Interlay",
     icon: "interlay.svg",
@@ -248,10 +241,6 @@ export const PARTNERS = [
     url: "https://litentry.subsquare.io/",
   },
   {
-    icon: "project-litmus.svg",
-    url: "https://litmus.subsquare.io/",
-  },
-  {
     icon: "project-zeitgeist.svg",
     url: "https://Zeitgeist.subsquare.io/",
   },
@@ -392,11 +381,6 @@ export const EXPLORE_CARDS = [
     title: "Litentry Network",
     img: "explore-img-litentry.jpg",
     url: "https://litentry.subsquare.io/",
-  },
-  {
-    title: "Litmus Network",
-    img: "explore-img-litmus.jpg",
-    url: "https://litmus.subsquare.io/",
   },
   {
     title: "Zeitgeist",
