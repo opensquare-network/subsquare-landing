@@ -162,13 +162,6 @@ export const OPTIONS = [
     group: MenuGroups.Solochain,
   },
   {
-    value: "rococo",
-    text: "Rococo",
-    icon: "rococo.svg",
-    url: "https://rococo.subsquare.io/",
-    group: MenuGroups.Solochain,
-  },
-  {
     value: "shibuya",
     text: "Shibuya",
     icon: "shibuya.svg",
