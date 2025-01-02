@@ -12,7 +12,7 @@ export const OPTIONS = [
     value: "polkadot-assethub",
     text: "Asset Hub",
     icon: "polkadot-assethub.svg",
-    url: "https://polkadot-assethub.subsquare.io",
+    url: "https://polkadot.subsquare.io/assethub",
     group: MenuGroups.PolkadotAndParachains,
   },
   {
@@ -26,7 +26,7 @@ export const OPTIONS = [
     value: "kusama-assethub",
     text: "Asset Hub",
     icon: "kusama-assethub.svg",
-    url: "https://kusama-assethub.subsquare.io/",
+    url: "https://kusama.subsquare.io/assethub",
     group: MenuGroups.KusamaAndParachains,
   },
   {
@@ -158,7 +158,7 @@ export const OPTIONS = [
     value: "westend-assethub",
     text: "Asset Hub",
     icon: "westend-assethub.svg",
-    url: "https://westend-assethub.subsquare.io/",
+    url: "https://westend.subsquare.io/assethub",
     group: MenuGroups.WestendAndParachains,
   },
   {
@@ -202,7 +202,7 @@ export const PARTNERS = [
   },
   {
     icon: "project-assethub.png",
-    url: "https://polkadot-assethub.subsquare.io/",
+    url: "https://polkadot.subsquare.io/assethub",
   },
   {
     icon: "project-khala.svg",
@@ -330,7 +330,7 @@ export const EXPLORE_CARDS = [
   {
     title: "Polkadot Asset Hub",
     img: "explore-img-polkadot-asset-hub.jpg",
-    url: "https://polkadot-assethub.subsquare.io/",
+    url: "https://polkadot.subsquare.io/assethub",
   },
   {
     title: "Collectives",
