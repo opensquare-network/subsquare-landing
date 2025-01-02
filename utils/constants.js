@@ -37,6 +37,13 @@ export const OPTIONS = [
     group: MenuGroups.PolkadotAndParachains,
   },
   {
+    value: "astar",
+    text: "Astar",
+    icon: "astar.svg",
+    url: "https://astar.subsquare.io/",
+    group: MenuGroups.PolkadotAndParachains,
+  },
+  {
     value: "bifrost-polkadot",
     text: "Bifrost Polkadot",
     icon: "bifrost.svg",
@@ -262,8 +269,8 @@ export const PARTNERS = [
     url: "https://zkverify-testnet.subsquare.io/",
   },
   {
-    icon: "project-shibuya.png",
-    url: "https://shibuya.subsquare.io/",
+    icon: "project-astar.png",
+    url: "https://astar.subsquare.io/",
   },
 ];
 
@@ -404,6 +411,11 @@ export const EXPLORE_CARDS = [
     title: "Vara",
     img: "explorer-img-vara.jpg",
     url: "https://vara.subsquare.io/",
+  },
+  {
+    title: "Astar",
+    img: "explore-img-astar.png",
+    url: "https://astar.subsquare.io/",
   },
 ];
 
