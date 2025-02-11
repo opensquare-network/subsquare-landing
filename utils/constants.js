@@ -100,10 +100,10 @@ export const OPTIONS = [
     group: MenuGroups.PolkadotAndParachains,
   },
   {
-    value: "litentry",
-    text: "Litentry",
-    icon: "litentry.svg",
-    url: "https://litentry.subsquare.io/",
+    value: "Heima",
+    text: "Heima",
+    icon: "heima.svg",
+    url: "https://heima.subsquare.io/",
     group: MenuGroups.PolkadotAndParachains,
   },
   // {
@@ -237,8 +237,8 @@ export const PARTNERS = [
     url: "https://crust.subsquare.io/",
   },
   {
-    icon: "project-litentry.svg",
-    url: "https://litentry.subsquare.io/",
+    icon: "project-heima.svg",
+    url: "https://heima.subsquare.io/",
   },
   {
     icon: "project-zeitgeist.svg",
@@ -378,9 +378,9 @@ export const EXPLORE_CARDS = [
     url: "https://crust.subsquare.io/",
   },
   {
-    title: "Litentry Network",
-    img: "explore-img-litentry.jpg",
-    url: "https://litentry.subsquare.io/",
+    title: "Heima",
+    img: "explore-img-heima.jpg",
+    url: "https://heima.subsquare.io/",
   },
   {
     title: "Zeitgeist",
