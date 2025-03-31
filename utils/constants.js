@@ -51,13 +51,6 @@ export const OPTIONS = [
     group: MenuGroups.PolkadotAndParachains,
   },
   {
-    value: "altair",
-    text: "Altair",
-    icon: "altair.svg",
-    url: "https://altair.subsquare.io/",
-    group: MenuGroups.KusamaAndParachains,
-  },
-  {
     value: "basilisk",
     text: "Basilisk",
     icon: "basilisk.svg",
@@ -120,13 +113,6 @@ export const OPTIONS = [
     group: MenuGroups.KusamaAndParachains,
   },
   {
-    value: "khala",
-    text: "Khala",
-    icon: "khala.svg",
-    url: "https://khala.subsquare.io/",
-    group: MenuGroups.KusamaAndParachains,
-  },
-  {
     value: "kintsugi",
     text: "Kintsugi",
     icon: "kintsugi.svg",
@@ -138,13 +124,6 @@ export const OPTIONS = [
     text: "Phala",
     icon: "phala.svg",
     url: "https://phala.subsquare.io/",
-    group: MenuGroups.PolkadotAndParachains,
-  },
-  {
-    value: "Zeitgeist",
-    text: "Zeitgeist",
-    icon: "zeitgeist.svg",
-    url: "https://Zeitgeist.subsquare.io/",
     group: MenuGroups.PolkadotAndParachains,
   },
   {
@@ -166,13 +145,6 @@ export const OPTIONS = [
     text: "Crust",
     icon: "crust.svg",
     url: "https://crust.subsquare.io/",
-    group: MenuGroups.Solochain,
-  },
-  {
-    value: "shibuya",
-    text: "Shibuya",
-    icon: "shibuya.svg",
-    url: "https://shibuya.subsquare.io/",
     group: MenuGroups.Solochain,
   },
   {
@@ -203,10 +175,6 @@ export const PARTNERS = [
   {
     icon: "project-assethub.png",
     url: "https://polkadot.subsquare.io/assethub",
-  },
-  {
-    icon: "project-khala.svg",
-    url: "https://khala.subsquare.io/",
   },
   {
     icon: "project-phala.svg",
@@ -247,10 +215,6 @@ export const PARTNERS = [
   {
     icon: "project-centrifuge.svg",
     url: "https://centrifuge.subsquare.io/",
-  },
-  {
-    icon: "project-altair.svg",
-    url: "https://altair.subsquare.io/",
   },
   {
     icon: "project-basilisk.svg",
@@ -338,11 +302,6 @@ export const EXPLORE_CARDS = [
     url: "https://collectives.subsquare.io/",
   },
   {
-    title: "Khala",
-    img: "explore-img-khala.jpg",
-    url: "https://khala.subsquare.io/",
-  },
-  {
     title: "Phala",
     img: "explore-img-phala.jpg",
     url: "https://phala.subsquare.io/",
@@ -383,19 +342,9 @@ export const EXPLORE_CARDS = [
     url: "https://heima.subsquare.io/",
   },
   {
-    title: "Zeitgeist",
-    img: "explore-img-zeitgeist.jpg",
-    url: "https://zeitgeist.subsquare.io/",
-  },
-  {
     title: "Centrifuge",
     img: "explore-img-centrifuge.jpg",
     url: "https://centrifuge.subsquare.io/",
-  },
-  {
-    title: "Altair",
-    img: "explore-img-altair.jpg",
-    url: "https://altair.subsquare.io/",
   },
   {
     title: "Basilisk",
