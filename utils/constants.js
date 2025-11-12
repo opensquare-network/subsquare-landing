@@ -236,6 +236,10 @@ export const PARTNERS = [
     icon: "project-astar.png",
     url: "https://astar.subsquare.io/",
   },
+  {
+    icon: "project-acurast.svg",
+    url: "https://acurast.subsquare.io/",
+  },
 ];
 
 export const FEATURE_TABS = [
@@ -365,6 +369,11 @@ export const EXPLORE_CARDS = [
     title: "Astar",
     img: "explore-img-astar.png",
     url: "https://astar.subsquare.io/",
+  },
+  {
+    title: "Acurast",
+    img: "explore-img-acurast.jpg",
+    url: "https://acurast.subsquare.io/",
   },
 ];
 
