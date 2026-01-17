@@ -65,13 +65,6 @@ export const OPTIONS = [
     group: MenuGroups.KusamaAndParachains,
   },
   {
-    value: "centrifuge",
-    text: "Centrifuge",
-    icon: "centrifuge.svg",
-    url: "https://centrifuge.subsquare.io/",
-    group: MenuGroups.PolkadotAndParachains,
-  },
-  {
     value: "collectives",
     text: "Collectives",
     icon: "collectives.svg",
@@ -118,13 +111,6 @@ export const OPTIONS = [
     icon: "kintsugi.svg",
     url: "https://kintsugi.subsquare.io/",
     group: MenuGroups.KusamaAndParachains,
-  },
-  {
-    value: "phala",
-    text: "Phala",
-    icon: "phala.svg",
-    url: "https://phala.subsquare.io/",
-    group: MenuGroups.PolkadotAndParachains,
   },
   {
     value: "westend",
@@ -177,10 +163,6 @@ export const PARTNERS = [
     url: "https://polkadot.subsquare.io/assethub",
   },
   {
-    icon: "project-phala.svg",
-    url: "https://phala.subsquare.io/",
-  },
-  {
     icon: "project-kintsugi.svg",
     url: "https://kintsugi.subsquare.io/",
   },
@@ -207,14 +189,6 @@ export const PARTNERS = [
   {
     icon: "project-heima.svg",
     url: "https://heima.subsquare.io/",
-  },
-  {
-    icon: "project-zeitgeist.svg",
-    url: "https://Zeitgeist.subsquare.io/",
-  },
-  {
-    icon: "project-centrifuge.svg",
-    url: "https://centrifuge.subsquare.io/",
   },
   {
     icon: "project-basilisk.svg",
@@ -302,11 +276,6 @@ export const EXPLORE_CARDS = [
     url: "https://collectives.subsquare.io/",
   },
   {
-    title: "Phala",
-    img: "explore-img-phala.jpg",
-    url: "https://phala.subsquare.io/",
-  },
-  {
     title: "Kintsugi",
     img: "explore-img-kintsugi.png",
     url: "https://kintsugi.subsquare.io/",
@@ -340,11 +309,6 @@ export const EXPLORE_CARDS = [
     title: "Heima",
     img: "explore-img-heima.jpg",
     url: "https://heima.subsquare.io/",
-  },
-  {
-    title: "Centrifuge",
-    img: "explore-img-centrifuge.jpg",
-    url: "https://centrifuge.subsquare.io/",
   },
   {
     title: "Basilisk",
