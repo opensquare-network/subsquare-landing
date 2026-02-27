@@ -79,13 +79,6 @@ export const OPTIONS = [
     group: MenuGroups.PolkadotAndParachains,
   },
   {
-    value: "interlay",
-    text: "Interlay",
-    icon: "interlay.svg",
-    url: "https://interlay.subsquare.io/",
-    group: MenuGroups.PolkadotAndParachains,
-  },
-  {
     value: "Heima",
     text: "Heima",
     icon: "heima.svg",
@@ -103,13 +96,6 @@ export const OPTIONS = [
     text: "Karura",
     icon: "karura.svg",
     url: "https://karura.subsquare.io/",
-    group: MenuGroups.KusamaAndParachains,
-  },
-  {
-    value: "kintsugi",
-    text: "Kintsugi",
-    icon: "kintsugi.svg",
-    url: "https://kintsugi.subsquare.io/",
     group: MenuGroups.KusamaAndParachains,
   },
   {
@@ -161,14 +147,6 @@ export const PARTNERS = [
   {
     icon: "project-assethub.png",
     url: "https://polkadot.subsquare.io/assethub",
-  },
-  {
-    icon: "project-kintsugi.svg",
-    url: "https://kintsugi.subsquare.io/",
-  },
-  {
-    icon: "project-interlay.svg",
-    url: "https://interlay.subsquare.io/",
   },
   {
     icon: "project-bifrost.svg",
@@ -274,16 +252,6 @@ export const EXPLORE_CARDS = [
     title: "Collectives",
     img: "explore-img-collectives.jpg",
     url: "https://collectives.subsquare.io/",
-  },
-  {
-    title: "Kintsugi",
-    img: "explore-img-kintsugi.png",
-    url: "https://kintsugi.subsquare.io/",
-  },
-  {
-    title: "Interlay",
-    img: "explore-img-interlay.jpg",
-    url: "https://interlay.subsquare.io/",
   },
   {
     title: "Acala",
